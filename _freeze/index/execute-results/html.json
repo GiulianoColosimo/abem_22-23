@@ -1,0 +1,16 @@
+{
+  "hash": "363e95b47708c5492d6db257289b37e3",
+  "result": {
+    "markdown": "---\ntitle: \"Applicazioni Bioinformatiche per l'Ecologia Molecolare, AA 2022-2023\"\nauthor: Giuliano Colosimo and Giulia Maiello\ndate: 2022-08-24\n---\n\n\n\n\n## Welcome to class!\n\nThis website contains all the information you need to accomplish your class work for **Applicazioni Bioinformatiche per l'Ecologia Molecolare**.\n\n## The instructors\n\nGiuliano Colosimo is...\n\n-   I am a Research Associate working \\@ University of Rome \"Tor Vergata\" and I am interested in using ecological and molecular tools to inform conservation actions\n-   I was a PostDoc for 5 years with the San Diego Zoo Wildlife Association\n-   I got a PhD in Conservation Genetics \\@ Mississippi State University\n-   I have been doing research in Conservation Biology since 2010\n-   I got my bachelor and master degree \\@ University of Rome \"Tor Vergata\"\n\nGiulia Maiello is...\n\n-   PhD student using genomic tools to\n\n\nAll information related to this course (including last minute changes and updates of the material) will be available on this website.\n\n> Attendance is mandatory!\n\nThe course will be thought in Italian unless international students are present. In this latter case the course will be thought in English.\n\nAt the end of the course students will have 2 weeks to prepare for a final examination. The details about the exam will be released later on these web-pages.\n\n## Pre-requisites\n\nThroughout the course students will be extensively exposed to various software and web-tools. It is necessary that each student has his/her own laptop in order to better follow the various demonstrations/exercise that will take place in class. Should a student not have a portable computer, all code and demonstrations will be up-loaded on this website and are available for practice on a desktop computer.\n\n## Calendar\n\nBelow is a preliminary calendar of all appointments. We shall meet in person at the Experimental Ecology and Aquaculture Laboratory in Via Cracovia 1, 00133 Rome.\n\nBe aware that these dates/times/locations may change due to unforeseeable circumstances and to the evolution of the COVID-19 pandemic. Should classes in person not be possible, a link for a Microsoft-Teams-class will be released.\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/calendar1-1.png){width=672}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/calendar_2-1.png){width=672}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/calendar_3-1.png){width=672}\n:::\n:::\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

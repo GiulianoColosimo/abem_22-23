@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: docs
+
+
+website:
+  title: "ABEM_22-23"
+  description: "Homepage for ABEM - Applied Bioinformatic for Molecular Ecology, Fall 2022."
+  open-graph: true
+  
+  sidebar:
+    background: "#D9E3E4"
+    logo: ./images/background.jpg
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/sta210-s22
+        text: "GitHub organization"
+
+
+    style: "docked"
+    search: true
+    collapse-level: 1
+    contents:
+      - section: "Course information"
+        contents:
+          - href: index.qmd
+            text: "Overview"
+          - href: course_syllabus.qmd
+            text: "Syllabus"
+      - section: "Classes"
+        contents:
+           - ./classes/class1.qmd
+           - ./classes/class2.qmd
+      - href: contacts.qmd
+        text: Contacts
+
+   
+  page-footer:
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    left: "&copy; Copyright 2022, Giuliano Colosimo and Giulia Maiello"
+    background: "#D9E3E4"
+ 
+
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    mainfont: "Atkinson Hyperlegible"
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+
+freeze: auto
+
+editor: visual
+
+

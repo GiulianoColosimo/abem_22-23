@@ -1,0 +1,12 @@
+---
+title: "ABEM 22-23"
+author: Giuliano Colosimo and Giulia Maiello
+date: 2022-08-24
+---
+
+This website contains all the information you need to accomplish your class work for **Applicazioni Bioinformatiche per l'Ecologia Molecolare**.
+
+The course aims to train students in bioinformatics techniques for the analysis of molecular ecology data (genetic data and genomic data). The course offers an overview of the tools for the production, organization, and analysis of molecular data aimed at ecological investigations.
+
+
+![](images/background.jpg){fig-alt="Nucleotidi"}
