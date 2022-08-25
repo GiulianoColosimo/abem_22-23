@@ -1,7 +1,9 @@
+# the main source of inspiration for this website was https://sta210-s22.github.io/website/ and https://github.com/sta210-s22/website
+
 project:
   type: website
-  output-dir: docs # command to allow publishing using docs https://quarto.org/docs/publishing/github-pages.html
-
+  output-dir: docs # command to allow publishing using docs (https://quarto.org/docs/publishing/github-pages.html)
+  # to render the website I can use terminal and issue "quarto render"
 
 website:
   title: "ABEM_22-23"
@@ -15,7 +17,7 @@ website:
     align: center
     tools:
       - icon: github
-        href: https://github.com/sta210-s22
+        href: https://github.com/GiulianoColosimo/abem_22-23.git
         text: "GitHub organization"
 
 

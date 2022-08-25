@@ -25,7 +25,7 @@
     "href": "course_syllabus.html#learning-objectives",
     "title": "Syllabus",
     "section": "Learning objectives",
-    "text": "Learning objectives\nBy the end of the course a student should be able to:\n\nKnow the basics of different sequencing technologies;\nWork with common genetic and genomic data file (FASTA and FASTAQ);\nLearn how to use the R language to analyse large genomic data set;\nQuery and obtain data from on-line nucleotide sequence databases;"
+    "text": "Learning objectives\nBy the end of the course a student should be able to:\n\nKnow the basics of different sequencing technologies;\nWork with common genetic and genomic data file (FASTA and FASTAQ);\nLearn how to use the R language to analyse large genomic data set;\nQuery and obtain data from on-line nucleotide sequence databases;\nPerform basic ecological analyses from genomic data."
   },
   {
     "objectID": "course_syllabus.html#examproject",
@@ -33,13 +33,6 @@
     "title": "Syllabus",
     "section": "Exam/Project",
     "text": "Exam/Project\nThe assessment of the students’ learning level will take place throughout the course, through the collegial discussion of primary literature on the main subject. The critical comparison of the various methodologies of data acquisition, organization and processing will constitute the basis for the formulation of the student’s final judgment. Aspects that will be used to assess students’ learning level are their participation and interaction during the course and their ability to present and discuss scientific literature articles. To pass the course with full marks, each student must submit a report related to a project that the teachers will assign during the course."
-  },
-  {
-    "objectID": "course_schedule.html",
-    "href": "course_schedule.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "|—————————|————————|————————–| | Week | Date (yyyy-mm-dd) | Class - Topic | |—————————|————————|————————–| | 1 |2022-10-04 | Meet & Greet + CPU Set Up| | |2022-10-06 | Sequencing Technologies | |—————————|————————|————————–| | 2 |2022-10-11 | Meet & Greet + CPU Set Up| | |2022-10-13 | Sequencing Technologies | |—————————|————————|————————–| | 3 |2022-10-18 | Meet & Greet + CPU Set Up| | |2022-10-20 | Sequencing Technologies | |—————————|————————|————————–| | 4 |2022-10-25 | Meet & Greet + CPU Set Up| | |2022-10-27 | Sequencing Technologies | |—————————|————————|————————–|"
   },
   {
     "objectID": "index.html",

@@ -5,20 +5,91 @@ date: 2022-08-24
 tbl-colwidths: [5,10,15]
 ---
 
-::: column-screen-inset-right
-|---------------------------|------------------------|--------------------------|
-|           Week            | Date (yyyy-mm-dd)      | Class - Topic            |
-|---------------------------|------------------------|--------------------------|
-| 1                         |2022-10-04              | Meet & Greet + CPU Set Up|
-|                           |2022-10-06              | Sequencing Technologies  |
-|---------------------------|------------------------|--------------------------|
-| 2                         |2022-10-11              | Meet & Greet + CPU Set Up|
-|                           |2022-10-13              | Sequencing Technologies  |
-|---------------------------|------------------------|--------------------------|
-| 3                         |2022-10-18              | Meet & Greet + CPU Set Up|
-|                           |2022-10-20              | Sequencing Technologies  |
-|---------------------------|------------------------|--------------------------|
-| 4                         |2022-10-25              | Meet & Greet + CPU Set Up|
-|                           |2022-10-27              | Sequencing Technologies  |
-|---------------------------|------------------------|--------------------------|
-:::
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(calendR)
+```
+
+
+```{r calendar1, echo=FALSE, message=FALSE, warning=FALSE}
+# Vector of dates
+dates <- seq(as.Date("2022-10-01"), 
+  as.Date("2022-10-31"), by = "1 day")
+
+# Vector of NA and weekends
+# (with the week starting on Monday)
+events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
+
+events[c(4, 6, 11, 13, 18, 20, 25, 27)] <- "Classes"
+
+calendR(year = 2022, 
+        month = 10, 
+        start = "M",
+        title = "Class calendar",
+        subtitle = "October 2022",
+        special.days = events,
+        special.col = c("#00AAAE", "gray"),
+        low.col = "white",
+        legend.pos = "bottom", # Legend position
+        legend.title = "",
+        text = c("10:00-12:00\nMeet & Greet\nPC set up", "10:00-12:00\nSeq. technologies", 
+                 "10:00-12:00", "10:00-12:00",
+                 "10:00-12:00", "10:00-12:00",
+                 "10:00-12:00", "10:00-12:00"),             
+        text.pos = c(4, 6, 11, 13, 18, 20, 25, 27),        
+        text.size = 2.5,              
+        text.col = "black")
+```
+
+```{r calendar_2, echo=FALSE, message=FALSE, warning=FALSE}
+# Vector of dates
+dates <- seq(as.Date("2022-11-01"), as.Date("2022-11-30"), by = "1 day")
+
+# Vector of NA and weekends
+# (with the week starting on Monday)
+events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
+
+events[c(1, 3, 8, 10)] <- "Classes"
+
+calendR(year = 2022, 
+        month = 11, 
+        start = "M",
+        title = "",
+        subtitle = "November 2022",
+        special.days = events,
+        special.col = c("#00AAAE", "gray"),
+        low.col = "white",
+        legend.pos = "bottom", # Legend position
+        legend.title = "",
+        text = c("10:00-12:00", "10:00-12:00",
+                 "10:00-12:00", "10:00-12:00"),             
+        text.pos = c(1, 3, 8, 10),        
+        text.size = 3.5,              
+        text.col = "black")
+```
+
+```{r calendar_3, echo=FALSE, message=FALSE, warning=FALSE}
+# Vector of dates
+dates <- seq(as.Date("2022-12-01"), as.Date("2022-12-31"), by = "1 day")
+
+# Vector of NA and weekends
+# (with the week starting on Monday)
+events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
+
+events[6] <- "Exam"
+
+calendR(year = 2022, 
+        month = 12, 
+        start = "M",
+        title = "",
+        subtitle = "December 2022",
+        special.days = events,
+        special.col = c("Red", "gray"),
+        low.col = "white",
+        legend.pos = "bottom", # Legend position
+        legend.title = "",
+        text = c("10:00-12:00"),             
+        text.pos = 6,        
+        text.size = 3.5,              
+        text.col = "black")
+```

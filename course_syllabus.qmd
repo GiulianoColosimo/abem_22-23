@@ -30,6 +30,7 @@ By the end of the course a student should be able to:
 - Work with common genetic and genomic data file (FASTA and FASTAQ);
 - Learn how to use the R language to analyse large genomic data set;
 - Query and obtain data from on-line nucleotide sequence databases;
+- Perform basic ecological analyses from genomic data.
 
 
 ## Exam/Project
