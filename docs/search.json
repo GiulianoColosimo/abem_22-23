@@ -4,7 +4,7 @@
     "href": "course_syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "This is an discretionary course for master level students enrolled in the “Biologia Evoluzionistica, Ecologia e Antropologia Applicata” degree at the University of Rome Tor Vergata. It is worth 3 CFU for a total of 24 hours to be administered in person (or remotely, depending on the evolution of the pandemic) during the first semester of academic year 2022/2023.\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nLectures\nTue & Thu\n10:00 pm - 12:00 pm\nTelevisore\n\n\n\n\nAttendance is mandatory!"
+    "text": "This is an discretionary course for master level students enrolled in the “Biologia Evoluzionistica, Ecologia e Antropologia Applicata” degree at the University of Rome Tor Vergata. It is worth 3 CFU for a total of 24 hours to be administered in person (or remotely, depending on the evolution of the pandemic) during the first semester of academic year 2022/2023.\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nLectures\nTue & Thu\n10:00 pm - 12:00 pm\nTelevisore\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nAttendance is mandatory!"
   },
   {
     "objectID": "course_syllabus.html#course-language",
@@ -25,7 +25,7 @@
     "href": "course_syllabus.html#learning-objectives",
     "title": "Syllabus",
     "section": "Learning objectives",
-    "text": "Learning objectives\nBy the end of the course a student should be able to:\n\nKnow the basics of different sequencing technologies;\nWork with common genetic and genomic data file (FASTA and FASTAQ);\nLearn how to use the R language to analyse large genomic data set;\nQuery and obtain data from on-line nucleotide sequence databases;\nPerform basic ecological analyses from genomic data."
+    "text": "Learning objectives\nBy the end of the course a student should be able to:\n\nKnow the basics of different sequencing technologies;\nWork with common genetic and genomic data file (FASTA and FASTAQ);\nLearn how to use the R language to analyse large genomic data set;\nLearn how to perform small, reproducible bioinformatic projects;\nQuery and obtain data from on-line nucleotide sequence databases;\nPerform basic ecological analyses from genomic data."
   },
   {
     "objectID": "course_syllabus.html#examproject",
@@ -37,16 +37,37 @@
   {
     "objectID": "classes/class1.html#your-teachers",
     "href": "classes/class1.html#your-teachers",
-    "title": "Meet & Greet + PC Set up!",
+    "title": "Class 1",
     "section": "Your teachers",
     "text": "Your teachers\n\n\n\n\n\nDr. Giuliano Colosimo\n\n\n\n\nResearch Associate working @ University of Rome “Tor Vergata”\nI was a PostDoc for 5 years with the San Diego Zoo Wildlife Association\nI got a PhD in Conservation Genetics @ Mississippi State University\ngiuliano.colosimo@uniroma2.it"
   },
   {
     "objectID": "classes/class1.html#section",
     "href": "classes/class1.html#section",
-    "title": "Meet & Greet + PC Set up!",
+    "title": "Class 1",
     "section": "",
-    "text": "Giulia Maiello\n\n\n\n\nPhD Student\ngmaiello93@gmail.com\n\n\n\n\n\n\nhttps://giulianocolosimo.github.io/abem_22-23/"
+    "text": "Giulia Maiello\n\n\n\n\nPhD Student\ngmaiello93@gmail.com"
+  },
+  {
+    "objectID": "classes/class1.html#what-is-bioinformatics",
+    "href": "classes/class1.html#what-is-bioinformatics",
+    "title": "Class 1",
+    "section": "What is Bioinformatics?",
+    "text": "What is Bioinformatics?\n\n\n\nFrom Wikipedia\n\n\nBioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data, in particular when the data sets are large and complex. As an interdisciplinary field of science, bioinformatics combines biology, chemistry, physics, computer science, information engineering, mathematics and statistics to analyze and interpret the biological data. Bioinformatics has been used for in silico analyses of biological queries using computational and statistical techniques."
+  },
+  {
+    "objectID": "classes/class1.html#section-1",
+    "href": "classes/class1.html#section-1",
+    "title": "Class 1",
+    "section": "",
+    "text": "Back in the days, biologists could analyze their small and manageable data on their personal computers. With classic Sanger Sequecing we were able to amplify anywhere between 50 and 1000 nucleotides (i.e., reatively short fragments)."
+  },
+  {
+    "objectID": "classes/class1.html#section-2",
+    "href": "classes/class1.html#section-2",
+    "title": "Class 1",
+    "section": "",
+    "text": "Drop of sequencing cost for Genomes and Nucleotides\n\n\n\n\n\n\n\nhttps://giulianocolosimo.github.io/abem_22-23/"
   },
   {
     "objectID": "index.html",

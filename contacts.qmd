@@ -1,5 +1,7 @@
 ---
 title: "Contacts"
+author: Giuliano Colosimo and Giulia Maiello
+date: "`r Sys.Date()`"
 ---
 
 We do not have a specific office time and hour to meet but you can always reach out to us with questions, doubts and any other issue related to the course.
