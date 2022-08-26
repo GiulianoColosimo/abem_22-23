@@ -53,21 +53,21 @@
     "href": "classes/class1.html#what-is-bioinformatics",
     "title": "Class 1",
     "section": "What is Bioinformatics?",
-    "text": "What is Bioinformatics?\n\n\n\nFrom Wikipedia\n\n\nBioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data, in particular when the data sets are large and complex. As an interdisciplinary field of science, bioinformatics combines biology, chemistry, physics, computer science, information engineering, mathematics and statistics to analyze and interpret the biological data. Bioinformatics has been used for in silico analyses of biological queries using computational and statistical techniques."
+    "text": "What is Bioinformatics?\n\n\n\nFrom Wikipedia\n\n\nBioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data, in particular when the data sets are large and complex. As an interdisciplinary field of science, bioinformatics combines biology, chemistry, physics, computer science, information engineering, mathematics and statistics to analyze and interpret the biological data. Bioinformatics has been used for in silico analyses of biological queries using computational and statistical techniques.\n\n\n\n\n\n\n\n\n\nImportant\n\n\nBioinformaticians deal with a variety of different type of data! We are not bioinformaticians, we are evolutionary biologists and we will be dealing with the data of greatest interest to us: nucleotide sequence data."
+  },
+  {
+    "objectID": "classes/class1.html#why-bioinformatics",
+    "href": "classes/class1.html#why-bioinformatics",
+    "title": "Class 1",
+    "section": "Why Bioinformatics",
+    "text": "Why Bioinformatics\nBack in the days, biologists could analyze their small and manageable data on their personal computers. Sanger Sequecing produced anywhere between 50 and 1000 nucleotides at a time to be analysed on a regular computer.\nSince 1994 scientist have begun developing new technologies to parallelize DNA sequencing and produce high throughput data.\nAs large dataset become available, biologists need to harness the tools to design meaningful experiments to produce data and analyse them."
   },
   {
     "objectID": "classes/class1.html#section-1",
     "href": "classes/class1.html#section-1",
     "title": "Class 1",
     "section": "",
-    "text": "Back in the days, biologists could analyze their small and manageable data on their personal computers. With classic Sanger Sequecing we were able to amplify anywhere between 50 and 1000 nucleotides (i.e., reatively short fragments)."
-  },
-  {
-    "objectID": "classes/class1.html#section-2",
-    "href": "classes/class1.html#section-2",
-    "title": "Class 1",
-    "section": "",
-    "text": "Drop of sequencing cost for Genomes and Nucleotides\n\n\n\n\n\n\n\nhttps://giulianocolosimo.github.io/abem_22-23/"
+    "text": "Drop of sequencing cost for Genomes and Nucleotides Data from https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data"
   },
   {
     "objectID": "index.html",
