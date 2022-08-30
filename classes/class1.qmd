@@ -15,7 +15,6 @@ execute:
   freeze: auto
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(countdown)
@@ -25,22 +24,20 @@ library("formattable")
 library("lubridate")
 ```
 
-
 # Welcome
 
 ## Your teachers
 
 ::: columns
-
 ::: {.column width="50%"}
 ![Dr. Giuliano Colosimo](../images/class1/giuliano_iguana.jpg){fig-alt="Dr. Giuliano Colosimo and its iguana friend" fig-align="center"}
 :::
 
-:::{.column width="50%"}
-- Research Associate working @ University of Rome "Tor Vergata" 
-- I was a PostDoc for 5 years with the San Diego Zoo Wildlife Association
-- I got a PhD in Conservation Genetics @ Mississippi State University
-- giuliano.colosimo@uniroma2.it
+::: {.column width="50%"}
+-   Research Associate working \@ University of Rome "Tor Vergata"
+-   I was a PostDoc for 5 years with the San Diego Zoo Wildlife Association
+-   I got a PhD in Conservation Genetics \@ Mississippi State University
+-   giuliano.colosimo\@uniroma2.it
 :::
 :::
 
@@ -51,9 +48,9 @@ library("lubridate")
 ![Giulia Maiello](../images/class1/giulia.jpg){fig-alt="Giulia Maiello" fig-align="center"}
 :::
 
-:::{.column width="50%"}
-- PhD Student
-- gmaiello93@gmail.com
+::: {.column width="50%"}
+-   PhD Student
+-   gmaiello93\@gmail.com
 :::
 :::
 
@@ -61,15 +58,15 @@ library("lubridate")
 
 ## What is Bioinformatics?
 
-:::{.callout-note icon=false}
+::: {.callout-note icon="false"}
 ## From [Wikipedia](https://en.wikipedia.org/wiki/Bioinformatics)
+
 Bioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data, in particular when the data sets are large and complex. As an interdisciplinary field of science, bioinformatics combines biology, chemistry, physics, computer science, information engineering, mathematics and statistics to analyze and interpret the biological data. Bioinformatics has been used for in silico analyses of biological queries using computational and statistical techniques.
 :::
 
-:::{.callout-important}
+::: callout-important
 Bioinformaticians deal with a variety of different type of data! We are not bioinformaticians, we are evolutionary biologists and we will be dealing with the data of greatest interest to us: nucleotide sequence data.
 :::
-
 
 ## Why Bioinformatics
 
@@ -79,7 +76,7 @@ Since 1994 scientist have begun developing new technologies to parallelize DNA s
 
 As large dataset become available, biologists need to harness the tools to design meaningful experiments to produce data and analyse them.
 
-##
+## 
 
 ```{r seq_cost,echo=FALSE, message=FALSE, warning=FALSE, fig.cap="Drop of sequencing cost for Genomes and Nucleotides Data from [https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data](https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data)"}
 # data downloaded from https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data
@@ -115,8 +112,8 @@ legend("top", col = c("blue", "red"), legend = c("Cost per Genome", "Cost per Mb
 
 # Setting up your computer
 
-To visualize and analyse data and to produce reports on all the activities of this course we will be using **R** and **RStudio**. These are free cross-platform software. 
+To visualize and analyse data and to produce reports on all the activities of this course we will be using **R** and **RStudio**. These are free cross-platform software.
 
-- Visit the **R** (https://cran.r-project.org) page and download the **R** version compatible to your OS. Install the software following the instructions.
+-   Visit the **R** (https://cran.r-project.org) page and download the **R** version compatible to your OS. Install the software following the instructions.
 
-- Visit the **RStudio** (https://www.rstudio.com/products/rstudio/download/) page and download the **RStudio** Desktop version compatible with your OS. Install the software following the instructions.
+-   Visit the **RStudio** (https://www.rstudio.com/products/rstudio/download/) page and download the **RStudio** Desktop version compatible with your OS. Install the software following the instructions.

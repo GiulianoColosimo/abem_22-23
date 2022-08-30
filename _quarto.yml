@@ -37,6 +37,7 @@ website:
         contents:
            - ./classes/class1.qmd
            - ./classes/class2.qmd
+           - ./classes/class3.qmd
       - href: contacts.qmd
         text: Contacts
 

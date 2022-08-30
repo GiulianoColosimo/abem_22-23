@@ -10,7 +10,6 @@ knitr::opts_chunk$set(echo = TRUE)
 library(calendR)
 ```
 
-
 ```{r calendar1, echo=FALSE, message=FALSE, warning=FALSE}
 # Vector of dates
 dates <- seq(as.Date("2022-10-01"), 
@@ -33,7 +32,7 @@ calendR(year = 2022,
         legend.pos = "bottom", # Legend position
         legend.title = "",
         text = c("10:00-12:00\nMeet & Greet\nPC set up", "10:00-12:00\nSeq. technologies", 
-                 "10:00-12:00", "10:00-12:00",
+                 "10:00-12:00\nR-markdown", "10:00-12:00",
                  "10:00-12:00", "10:00-12:00",
                  "10:00-12:00", "10:00-12:00"),             
         text.pos = c(4, 6, 11, 13, 18, 20, 25, 27),        

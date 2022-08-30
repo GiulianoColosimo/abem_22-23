@@ -1,6 +1,6 @@
 ---
-title: "Class 2"
-subtitle: "Sequencing Technologies - ABEM 22-23"
+title: "Class 3"
+subtitle: "R-markdown - ABEM 22-23"
 author: "Dr. Giuliano Colosimo & Giulia Maiello"
 footer:  "[https://giulianocolosimo.github.io/abem_22-23/](https://giulianocolosimo.github.io/abem_22-23/)"
 logo: ../images/background.jpg
