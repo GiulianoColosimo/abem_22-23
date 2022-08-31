@@ -8,5 +8,6 @@ This website contains all the information you need to accomplish your class work
 
 The course aims to train students in bioinformatics techniques for the analysis of molecular ecology data (genetic data and genomic data). The course offers an overview of the tools for the production, organization, and analysis of molecular data aimed at ecological investigations.
 
-
 ![](images/background.jpg){fig-alt="Nucleotidi"}
+
+(Image downloaded from [this](http://rnasefree.blogspot.com/2009/10/quantos-genes-voce-tem.html) webpage)
