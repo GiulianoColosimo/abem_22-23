@@ -34,10 +34,10 @@ website:
           - href: course_schedule.qmd
             text: "Schedule"
       - section: "Classes"
-        contents:
-           - ./classes/class1.qmd
-           - ./classes/class2.qmd
-           - ./classes/class3.qmd
+        #contents:
+          # - ./classes/class1.qmd
+          # - ./classes/class2.qmd
+          # - ./classes/class3.qmd
       - href: contacts.qmd
         text: Contacts
 
