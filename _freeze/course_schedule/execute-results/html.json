@@ -1,7 +1,7 @@
 {
-  "hash": "e53cb741984411129f2dfda57ba69234",
+  "hash": "c763bf333ddfe8adb1668ab64582c880",
   "result": {
-    "markdown": "---\ntitle: \"Schedule\"\nauthor: Giuliano Colosimo and Giulia Maiello\ndate: \"2022-08-30\"\ntbl-colwidths: [5,10,15]\n---\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](course_schedule_files/figure-html/calendar1-1.png){width=672}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](course_schedule_files/figure-html/calendar_2-1.png){width=672}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](course_schedule_files/figure-html/calendar_3-1.png){width=672}\n:::\n:::\n",
+    "markdown": "---\ntitle: \"Schedule\"\nauthor: Giuliano Colosimo and Giulia Maiello\ndate: \"2022-09-02\"\ntbl-colwidths: [5,10,15]\n---\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](course_schedule_files/figure-html/calendar1-1.png){width=672}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](course_schedule_files/figure-html/calendar_2-1.png){width=672}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](course_schedule_files/figure-html/calendar_3-1.png){width=672}\n:::\n:::\n",
     "supporting": [
       "course_schedule_files"
     ],

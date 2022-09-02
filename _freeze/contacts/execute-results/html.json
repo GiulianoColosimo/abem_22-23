@@ -1,10 +1,8 @@
 {
-  "hash": "1cb5333f1ac05a8b487ea914111b195a",
+  "hash": "814c08630588035a16ce367dd5570421",
   "result": {
-    "markdown": "---\ntitle: \"Contacts\"\nauthor: Giuliano Colosimo and Giulia Maiello\ndate: \"2022-09-02\"\n---\n\n\nWe do not have a specific office time and hour to meet but you can always reach out to us with questions, doubts and any other issue related to the course.\n\nYou can reach Giuliano at:\n\n-   giuliano.colosimo\\@uniroma2.it\n\nYou can reach Giulia at:\n\n-   gmaiello93\\@gmail.com\n",
-    "supporting": [
-      "contacts_files"
-    ],
+    "markdown": "---\ntitle: \"Contacts\"\nauthor: Giuliano Colosimo and Giulia Maiello\ndate: \"2022-09-02\"\n---\n\n\nWe do not have a specific office time and hour to meet but you can always reach out to us with questions, doubts and any other issue related to the course.\n\nYou can reach Giuliano at:\n\n-   giuliano.colosimo\\@uniroma2.it\n\nYou can reach Giulia at:\n\n-   giulia.maiello\\@uniroma2.it\n",
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
