@@ -74,7 +74,7 @@
     "href": "index.html",
     "title": "ABEM 22-23",
     "section": "",
-    "text": "The course aims to train students in basic bioinformatics techniques for the analysis of molecular ecology data (genetic and genomic data). The course offers an overview of the tools for the production, organization, and analysis of molecular data aimed at ecological investigations.\n\n(Image downloaded from this webpage)\n\n\n\n\n\n\nAcknowledgement\n\n\n\nInspiration to build this class and website using R-Studio and Quarto comes from the class course developed by Dr. Mine Çetinkaya-Rundel available here. The main structure of this website is inspired by her work, and the freely available code has been tweaked, rearranged, and posted on GitHub."
+    "text": "Read carefully!\n\n\n\nIt is a student’s responsibility to periodically check this website to make sure he/she has the most updated information about the course and classes.\n\n\nThe course aims to train students in basic bioinformatics techniques for the analysis of molecular ecology data (genetic and genomic data). The course offers an overview of the tools for the production, organization, and analysis of molecular data aimed at ecological investigations.\n\n(Image downloaded from this webpage)\n\n\n\n\n\n\nAcknowledgement\n\n\n\nInspiration to build this class and website using R-Studio and Quarto comes from the class course developed by Dr. Mine Çetinkaya-Rundel available here. The main structure of this website is inspired by her work, and the freely available code has been tweaked, rearranged, and posted on GitHub."
   },
   {
     "objectID": "contacts.html",
@@ -103,5 +103,19 @@
     "title": "Syllabus",
     "section": "Additional Resources",
     "text": "Additional Resources\nAs this course will heavily rely on the use of R we report here some very useful resources that we encourage to use.\n\nStackOverflow\nBioconductor\nModern Statistics for Modern Biology\nUn Viaggio nell’Ambiente R"
+  },
+  {
+    "objectID": "course_syllabus.html#stduents-with-disabilities",
+    "href": "course_syllabus.html#stduents-with-disabilities",
+    "title": "Syllabus",
+    "section": "Stduents with disabilities",
+    "text": "Stduents with disabilities\nPlease let us know if you require special accommodations to follow this class."
+  },
+  {
+    "objectID": "course_syllabus.html#students-with-disabilities",
+    "href": "course_syllabus.html#students-with-disabilities",
+    "title": "Syllabus",
+    "section": "Students with disabilities",
+    "text": "Students with disabilities\nPlease let us know if you require special accommodations to follow this class."
   }
 ]

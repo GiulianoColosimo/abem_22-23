@@ -6,6 +6,13 @@ date: "`r Sys.Date()`"
 
 This website contains all the information you need to accomplish your class work for **Applicazioni Bioinformatiche per l'Ecologia Molecolare**.
 
+:::{.callout-important}
+
+## Read carefully!
+
+It is a student's responsibility to periodically check this website to make sure he/she has the most updated information about the course and classes.
+:::
+
 The course aims to train students in basic bioinformatics techniques for the analysis of molecular ecology data (genetic and genomic data). The course offers an overview of the tools for the production, organization, and analysis of molecular data aimed at ecological investigations.
 
 ![](images/background.jpg){fig-alt="Nucleotidi"}
