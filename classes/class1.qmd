@@ -26,6 +26,14 @@ library("lubridate")
 
 # Welcome
 
+## Class overview
+
+- Your teachers
+- Opening quiz
+- Course overview
+- Bioinformatics
+- Setting up your computers
+
 ## Your teachers
 
 ::: columns
@@ -45,14 +53,16 @@ library("lubridate")
 
 ::: columns
 ::: {.column width="50%"}
-![Giulia Maiello](../images/class1/giulia.jpg){fig-alt="Giulia Maiello" fig-align="center"}
+![Giulia Maiello](../images/class1/giuliano_iguana.jpg){fig-alt="Giulia Maiello" fig-align="center"}
 :::
 
 ::: {.column width="50%"}
 -   PhD Student
--   gmaiello93\@gmail.com
+-   giulia.maiello\@uniroma2.it
 :::
 :::
+
+# Opening quiz
 
 # Bioinformatics
 
@@ -61,24 +71,22 @@ library("lubridate")
 ::: {.callout-note icon="false"}
 ## From [Wikipedia](https://en.wikipedia.org/wiki/Bioinformatics)
 
-Bioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data, in particular when the data sets are large and complex. As an interdisciplinary field of science, bioinformatics combines biology, chemistry, physics, computer science, information engineering, mathematics and statistics to analyze and interpret the biological data. Bioinformatics has been used for in silico analyses of biological queries using computational and statistical techniques.
+Bioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data, in particular when the data sets are large and complex. [...] bioinformatics combines biology, chemistry, physics, computer science, information engineering, mathematics and statistics [...] using computational and statistical techniques.
 :::
 
-::: callout-important
-Bioinformaticians deal with a variety of different type of data! We are not bioinformaticians, we are evolutionary biologists and we will be dealing with the data of greatest interest to us: nucleotide sequence data.
+:::{.callout-important icon="false"}
+Bioinformaticians deal with a variety of different type of data! **We are not bioinformaticians!!** We are evolutionary biologists!! We will focus on nucleotide sequence data.
 :::
 
 ## Why Bioinformatics
 
-Back in the days, biologists could analyze their small and manageable data on their personal computers. [Sanger Sequecing](https://en.wikipedia.org/wiki/Sanger_sequencing) produced anywhere between 50 and 1000 nucleotides at a time to be analysed on a regular computer.
-
-Since 1994 scientist have begun developing new technologies to parallelize DNA sequencing and produce high throughput data.
-
-As large dataset become available, biologists need to harness the tools to design meaningful experiments to produce data and analyse them.
+>- Back in the days, biologists could analyze their data on personal computers. [Sanger Sequecing](https://en.wikipedia.org/wiki/Sanger_sequencing) produced anywhere between 50 and 1000 nucleotides at a time to be analysed on a regular computer.
+>- Since 1994 scientist have begun developing new technologies to parallelize DNA sequencing and produce high throughput data.
+>- As these technologies improve, biologists need to harness the tools to design meaningful experiments to produce data and analyse them.
 
 ## 
 
-```{r seq_cost,echo=FALSE, message=FALSE, warning=FALSE, fig.cap="Drop of sequencing cost for Genomes and Nucleotides Data from [https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data](https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data)"}
+```{r seq_cost,echo=FALSE, message=FALSE, warning=FALSE, fig.cap="Drop of sequencing cost for Genomes and Nucleotides. Data from [https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data](https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data)"}
 # data downloaded from https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data
 
 seq_cost <- read.csv("~/Documents/websites/abem_22-23/data/Sequencing_Cost_Data_Table_Aug2021.csv",
@@ -111,6 +119,8 @@ legend("top", col = c("blue", "red"), legend = c("Cost per Genome", "Cost per Mb
 ```
 
 # Setting up your computer
+
+##
 
 To visualize and analyse data and to produce reports on all the activities of this course we will be using **R** and **RStudio**. These are free cross-platform software.
 
