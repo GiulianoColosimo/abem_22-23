@@ -6,8 +6,7 @@ date: "`r Sys.Date()`"
 
 This website contains all the information you need to accomplish your class work for **Applicazioni Bioinformatiche per l'Ecologia Molecolare**.
 
-:::{.callout-important}
-
+::: callout-important
 ## Read carefully!
 
 It is a student's responsibility to periodically check this website to make sure he/she has the most updated information about the course and classes.
@@ -19,9 +18,8 @@ The course aims to train students in basic bioinformatics techniques for the ana
 
 (Image downloaded from [this](http://rnasefree.blogspot.com/2009/10/quantos-genes-voce-tem.html) webpage)
 
-:::{.callout-note}
+::: callout-note
+## Acknowledgement
 
-## Acknowledgement 
-
-Inspiration to build this website using [R-Studio](https://www.rstudio.com) and [Quarto](https://quarto.org/) comes from the class course developed by Dr. Mine Çetinkaya-Rundel available [here](https://sta210-s22.github.io/website/). The main structure of this website is inspired by her work, and the freely available code has been tweaked, rearranged, and posted on [GitHub](https://github.com/GiulianoColosimo/abem_22-23). 
+Inspiration to build this website using [R-Studio](https://www.rstudio.com) and [Quarto](https://quarto.org/) comes from the class course developed by Dr. Mine Çetinkaya-Rundel available [here](https://sta210-s22.github.io/website/). The main structure of this website is inspired by her work, and the freely available code has been tweaked, rearranged, and posted on [GitHub](https://github.com/GiulianoColosimo/abem_22-23).
 :::

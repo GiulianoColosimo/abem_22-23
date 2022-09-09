@@ -10,6 +10,12 @@ knitr::opts_chunk$set(echo = TRUE)
 library(calendR)
 ```
 
+::: callout-important
+## Read carefully!
+
+It is a student's responsibility to periodically check this website to make sure he/she has the most updated information about the course schedule.
+:::
+
 ```{r calendar1, echo=FALSE, message=FALSE, warning=FALSE}
 # Vector of dates
 dates <- seq(as.Date("2022-10-01"), 
@@ -81,7 +87,7 @@ dates <- seq(as.Date("2022-12-01"), as.Date("2022-12-31"), by = "1 day")
 # (with the week starting on Monday)
 events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
 
-events[23] <- "Exam"
+events[23] <- "Project due"
 
 calendR(year = 2022, 
         month = 12, 
