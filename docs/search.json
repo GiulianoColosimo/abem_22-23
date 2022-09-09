@@ -4,21 +4,21 @@
     "href": "course_syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "This is an discretionary course for master level students enrolled in the “Biologia Evoluzionistica, Ecologia e Antropologia Applicata” degree at the University of Rome Tor Vergata. It is worth 3 CFU for a total of 24 hours to be administered in person (or remotely, depending on the evolution of the pandemic) during the first semester of academic year 2022/2023.\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nLectures\nTue & Thu\n10:00 pm - 12:00 pm\nTelevisore\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nAttendance is mandatory!"
+    "text": "This is an discretionary course for master level students enrolled in the “Biologia Evoluzionistica, Ecologia e Antropologia Applicata” degree at the University of Rome Tor Vergata. It is worth 3 CFU for a total of 24 hours to be administered in person (or remotely, depending on the evolution of the pandemic) during the first semester of academic year 2022/2023.\n\n\n\n\n\n\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nLectures\nMon & Thu\n11:00 - 13:00 & 16:00 - 18:00\nAula pesca\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nAttendance is mandatory!"
   },
   {
     "objectID": "course_syllabus.html#course-language",
     "href": "course_syllabus.html#course-language",
     "title": "Syllabus",
     "section": "Course language",
-    "text": "Course language\nThe course will be thought in Italian unless international students are present. In this latter case the course will be thought in English. All the material and the litterature used (including this website!) will be in English."
+    "text": "Course language\nThe course will be thought in Italian unless international students are present. In this latter case the course will be thought in English. All the material and the literature used (including this website!) will be in English."
   },
   {
     "objectID": "course_syllabus.html#pre-requisites",
     "href": "course_syllabus.html#pre-requisites",
     "title": "Syllabus",
     "section": "Pre-requisites",
-    "text": "Pre-requisites\nThis is an introductory course, so no prior knowledge of this topic is required. Throughout the course students will be extensively exposed to various software and web-tools. All software used is freely available and relatively easy to install. It is necessary that each student has his/her own laptop in order to better follow the various demonstrations/exercise that will take place in class. Problem-solving skills and a good knowledge of the basic OS structure and functions will definitely be useful. This course does not teach you system administration skills and you should know how to read help files and software guides, as well as retrieve information on-line. Should a student not have a portable computer, all code and demonstrations will be up-loaded on this website and are available for practice on a desktop computer.\n\nNote that most modern bioinformatic relies on Unix-based systems (macOS and Linux). That being said, the material covered in class should work fine on Win systems as well!"
+    "text": "Pre-requisites\nThis is an introductory course, so no prior knowledge of this topic is required. Throughout the course students will be extensively exposed to various software and web-tools. All software used is freely available and relatively easy to install. It is necessary that each student has his/her own laptop in order to better follow the various demonstrations/exercises that will take place in class. Problem-solving skills and a good knowledge of your own computer OS structure and function will definitely be useful. This course does not teach you system administration skills and you should know how to read help files and software guides, as well as retrieve information on-line. Should a student not have a portable computer, all code and demonstrations will be uploaded on this website and are available for practice on a desktop computer.\n\n\n\n\n\n\nWarning\n\n\n\nNote that most modern bioinformatic relies on Unix-based systems (macOS and Linux). That being said, the material covered in class should work fine on Windows systems as well!"
   },
   {
     "objectID": "course_syllabus.html#learning-objectives",
@@ -28,11 +28,11 @@
     "text": "Learning objectives\nBy the end of the course a student should be able to:\n\nKnow the basics of different sequencing technologies;\nWork with common genetic and genomic data file (FASTA and FASTAQ);\nLearn how to use the R language to analyse large genomic data set;\nLearn how to perform small, reproducible bioinformatic projects;\nQuery and obtain data from on-line nucleotide sequence databases;\nPerform basic ecological analyses from genomic data."
   },
   {
-    "objectID": "course_syllabus.html#examproject",
-    "href": "course_syllabus.html#examproject",
+    "objectID": "course_syllabus.html#class-evaluation",
+    "href": "course_syllabus.html#class-evaluation",
     "title": "Syllabus",
-    "section": "Exam/Project",
-    "text": "Exam/Project\nThe assessment of the students’ learning level will take place throughout the course, through the collegial discussion of primary literature on the main subject. The critical comparison of the various methodologies of data acquisition, organization and processing will constitute the basis for the formulation of the student’s final judgment. Aspects that will be used to assess students’ learning level are their participation and interaction during the course and their ability to present and discuss scientific literature articles. To pass the course with full marks, each student must submit a report related to a project that the teachers will assign during the course."
+    "section": "Class evaluation",
+    "text": "Class evaluation\nThe assessment of the students’ learning level will take place throughout the course,\nStudents’ evaluation is based on three main aspects:\n\nParticipation to class and discussions;\nPaper presentation;\nProject.\n\n\nParticipation to class and discussion\nThrough the discussion of primary literature on the main subject. The critical comparison of the various methodologies of data acquisition, organization and processing will constitute the basis for the formulation of the student’s final judgment. Aspects that will be used to assess students’ learning level are their participation and interaction during the course and their ability to present and discuss scientific literature articles.\n\n\nPaper presentation\nEach student will, taking turns, be assigned a paper that he/she will present at the beginning of the next class. The presentation should consist of a PowerPoint (or .pdf or .slides) no longer than 20 minutes (~15 slides). At the end of each presentation the audience will have 10 minutes to ask questions or discuss the material presented. Each student in the audience has to prepare at least one question to ask the presenter.\n\n\n\n\n\n\nImportant\n\n\n\nEven if you are not presenting the paper you still have to read it carefully to prepare your question and actively participate in the discussion!!\n\n\n\n\nProject\nTowards the end of class each student will be assigned a data set. To pass the course with full marks, the student should submit a report related to a project that he/sge would have developed starting from the assigned data set. Each student will have to use all the skills acquired during class, analyse the data set and submit the final project for evaluation. All the instructions on how to format the final report will be illustrated in class and added on this website.\n\n\nGrading\n\n\n\nCategory\nPercentage\n\n\n\n\nParticipation\n15%\n\n\nPaper Presentation\n35%\n\n\nProject\n50%"
   },
   {
     "objectID": "classes/class1.html#your-teachers",
@@ -46,41 +46,111 @@
     "href": "classes/class1.html#section",
     "title": "Class 1",
     "section": "",
-    "text": "Giulia Maiello\n\n\n\n\nPhD Student\ngmaiello93@gmail.com"
+    "text": "Giulia Maiello\n\n\n\n\nPhD Student\ngiulia.maiello@uniroma2.it"
   },
   {
     "objectID": "classes/class1.html#what-is-bioinformatics",
     "href": "classes/class1.html#what-is-bioinformatics",
     "title": "Class 1",
     "section": "What is Bioinformatics?",
-    "text": "What is Bioinformatics?\n\n\n\nFrom Wikipedia\n\n\nBioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data, in particular when the data sets are large and complex. As an interdisciplinary field of science, bioinformatics combines biology, chemistry, physics, computer science, information engineering, mathematics and statistics to analyze and interpret the biological data. Bioinformatics has been used for in silico analyses of biological queries using computational and statistical techniques.\n\n\n\n\n\n\n\n\n\nImportant\n\n\nBioinformaticians deal with a variety of different type of data! We are not bioinformaticians, we are evolutionary biologists and we will be dealing with the data of greatest interest to us: nucleotide sequence data."
+    "text": "What is Bioinformatics?\n\n\n\nFrom Wikipedia\n\n\nBioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data, in particular when the data sets are large and complex. […] bioinformatics combines biology, chemistry, physics, computer science, information engineering, mathematics and statistics […] using computational and statistical techniques.\n\n\n\n\n\n\nImportant\n\n\nBioinformaticians deal with a variety of different type of data! We are not bioinformaticians!! We are evolutionary biologists!! We will focus on nucleotide sequence data."
   },
   {
     "objectID": "classes/class1.html#why-bioinformatics",
     "href": "classes/class1.html#why-bioinformatics",
     "title": "Class 1",
     "section": "Why Bioinformatics",
-    "text": "Why Bioinformatics\nBack in the days, biologists could analyze their small and manageable data on their personal computers. Sanger Sequecing produced anywhere between 50 and 1000 nucleotides at a time to be analysed on a regular computer.\nSince 1994 scientist have begun developing new technologies to parallelize DNA sequencing and produce high throughput data.\nAs large dataset become available, biologists need to harness the tools to design meaningful experiments to produce data and analyse them."
+    "text": "Why Bioinformatics\n\nBack in the days, biologists could analyze their data on personal computers. Sanger Sequecing produced anywhere between 50 and 1000 nucleotides at a time to be analysed on a regular computer.\nSince 1994 scientist have begun developing new technologies to parallelize DNA sequencing and produce high throughput data.\nAs these technologies improve, biologists need to harness the tools to design meaningful experiments to produce data and analyse them."
   },
   {
     "objectID": "classes/class1.html#section-1",
     "href": "classes/class1.html#section-1",
     "title": "Class 1",
     "section": "",
-    "text": "Drop of sequencing cost for Genomes and Nucleotides Data from https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data"
+    "text": "Drop of sequencing cost for Genomes and Nucleotides. Data from https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "ABEM 22-23",
     "section": "",
-    "text": "The course aims to train students in bioinformatics techniques for the analysis of molecular ecology data (genetic data and genomic data). The course offers an overview of the tools for the production, organization, and analysis of molecular data aimed at ecological investigations."
+    "text": "Read carefully!\n\n\n\nIt is a student’s responsibility to periodically check this website to make sure he/she has the most updated information about the course and classes.\n\n\nThe course aims to train students in basic bioinformatics techniques for the analysis of molecular ecology data (genetic and genomic data). The course offers an overview of the tools for the production, organization, and analysis of molecular data aimed at ecological investigations.\n\n(Image downloaded from this webpage)\n\n\n\n\n\n\nAcknowledgement\n\n\n\nInspiration to build this website using R-Studio and Quarto comes from the class course developed by Dr. Mine Çetinkaya-Rundel available here. The main structure of this website is inspired by her work, and the freely available code has been tweaked, rearranged, and posted on GitHub."
   },
   {
     "objectID": "contacts.html",
     "href": "contacts.html",
     "title": "Contacts",
     "section": "",
-    "text": "You can reach Giuliano at:\n\ngiuliano.colosimo@uniroma2.it\n\nYou can reach Giulia at:\n\ngmaiello93@gmail.com"
+    "text": "You can reach Giuliano at:\n\ngiuliano.colosimo@uniroma2.it\n\nYou can reach Giulia at:\n\ngiulia.maiello@uniroma2.it"
+  },
+  {
+    "objectID": "course_syllabus.html#textbook",
+    "href": "course_syllabus.html#textbook",
+    "title": "Syllabus",
+    "section": "Textbook",
+    "text": "Textbook\nAs this is an introductory and discretionary course we decided not to adopt a textbook. This is not to say that there are no introductory texts available (some of them are actually really good!). For those of you with a deep interest in Bioinformatics we recommend, as starters, the following books:\n\nBioinformatics Data Skill\nBioinformatics for Beginners: Genes, Genomes, Molecular Evolution, Databases and Analytical Tools"
+  },
+  {
+    "objectID": "course_syllabus.html#resources",
+    "href": "course_syllabus.html#resources",
+    "title": "Syllabus",
+    "section": "Resources",
+    "text": "Resources\n\nStackOverflow\nBioconductor\nModern Statistics for Modern Biology\nUn Viaggio nell’Ambiente R"
+  },
+  {
+    "objectID": "course_syllabus.html#additional-resources",
+    "href": "course_syllabus.html#additional-resources",
+    "title": "Syllabus",
+    "section": "Additional Resources",
+    "text": "Additional Resources\nAs this course will heavily rely on the use of R we report here some very useful resources that we encourage to use.\n\nStackOverflow\nBioconductor\nModern Statistics for Modern Biology\nUn Viaggio nell’Ambiente R"
+  },
+  {
+    "objectID": "course_syllabus.html#stduents-with-disabilities",
+    "href": "course_syllabus.html#stduents-with-disabilities",
+    "title": "Syllabus",
+    "section": "Stduents with disabilities",
+    "text": "Stduents with disabilities\nPlease let us know if you require special accommodations to follow this class."
+  },
+  {
+    "objectID": "course_syllabus.html#students-with-disabilities",
+    "href": "course_syllabus.html#students-with-disabilities",
+    "title": "Syllabus",
+    "section": "Students with disabilities",
+    "text": "Students with disabilities\nPlease let us know if you require special accommodations to follow this class."
+  },
+  {
+    "objectID": "classes/class1.html#section-2",
+    "href": "classes/class1.html#section-2",
+    "title": "Class 1",
+    "section": "",
+    "text": "To visualize and analyse data and to produce reports on all the activities of this course we will be using R and RStudio. These are free cross-platform software.\n\nVisit the R (https://cran.r-project.org) page and download the R version compatible to your OS. Install the software following the instructions.\nVisit the RStudio (https://www.rstudio.com/products/rstudio/download/) page and download the RStudio Desktop version compatible with your OS. Install the software following the instructions."
+  },
+  {
+    "objectID": "classes/class1.html#class-overview",
+    "href": "classes/class1.html#class-overview",
+    "title": "Class 1",
+    "section": "Class overview",
+    "text": "Class overview\n\nYour teachers\nOpening quiz\nCourse overview\nBioinformatics\nSetting up your computers"
+  },
+  {
+    "objectID": "classes/class1.html#section-3",
+    "href": "classes/class1.html#section-3",
+    "title": "Class 1",
+    "section": "",
+    "text": "NOTE: RStudio is an Integrated Development Environment (IDE) within which it should be easier to organize your R workflow. Learning all the specifics of R and RStudio is beyond the scope of this course and it is a student’s responsibility to learn the basics of these tools. That being said, you can always write me with your questions if something does not work on your computer and I will help troubleshooting potential issues."
+  },
+  {
+    "objectID": "classes/class1.html#section-4",
+    "href": "classes/class1.html#section-4",
+    "title": "Class 1",
+    "section": "",
+    "text": "Once installed, open RStudio. If everything worked appropriately when you first open RStudio, you should see 4 different panes organized in the following way:\n\ntop left: the editor where you edit scripts, documents and can run code directly in the console;\nbottom left: the R console, where the code is run. You can type code directly into the console OR you can send it to the console by running it from the editor;\ntop right: your environment/history panes. This is where you can see variables you’ve created and a full history of functions / commands you have run;\nbottom right: by default contains several panes including: files/plots/packages/help/viewer. The files pane allows you to explore files on your computer like you would in windows explorer or finder on a mac. The plots tab is where you will see plots that you create."
+  },
+  {
+    "objectID": "classes/class1.html#section-5",
+    "href": "classes/class1.html#section-5",
+    "title": "Class 1",
+    "section": "",
+    "text": "Screen shot of what you should see at the end of the installation of all the software. Note that colors and panes arrangement is likely going to be different on your computer. You can change many of the aspects parameters in RStudio and you can arrange colors and panes in the way that works best for you.\n\n\n\n\n\nhttps://giulianocolosimo.github.io/abem_22-23/"
   }
 ]

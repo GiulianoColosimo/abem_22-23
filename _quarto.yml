@@ -34,18 +34,19 @@ website:
           - href: course_schedule.qmd
             text: "Schedule"
       - section: "Classes"
-        contents:
-           - ./classes/class1.qmd
-           - ./classes/class2.qmd
+        #contents:
+          # - ./classes/class1.qmd
+          # - ./classes/class2.qmd
+          # - ./classes/class3.qmd
       - href: contacts.qmd
         text: Contacts
 
    
   page-footer:
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/). The format is inspired by this [course page](https://sta210-s22.github.io/website/)"
     left: "&copy; Copyright 2022, Giuliano Colosimo and Giulia Maiello"
     background: "#D9E3E4"
- 
+
 
 format:
   html:
