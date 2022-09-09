@@ -123,7 +123,7 @@
     "href": "classes/class1.html#section-2",
     "title": "Class 1",
     "section": "",
-    "text": "To visualize and analyse data and to produce reports on all the activities of this course we will be using R and RStudio. These are free cross-platform software.\n\nVisit the R (https://cran.r-project.org) page and download the R version compatible to your OS. Install the software following the instructions.\nVisit the RStudio (https://www.rstudio.com/products/rstudio/download/) page and download the RStudio Desktop version compatible with your OS. Install the software following the instructions.\n\n\n\n\nhttps://giulianocolosimo.github.io/abem_22-23/"
+    "text": "To visualize and analyse data and to produce reports on all the activities of this course we will be using R and RStudio. These are free cross-platform software.\n\nVisit the R (https://cran.r-project.org) page and download the R version compatible to your OS. Install the software following the instructions.\nVisit the RStudio (https://www.rstudio.com/products/rstudio/download/) page and download the RStudio Desktop version compatible with your OS. Install the software following the instructions."
   },
   {
     "objectID": "classes/class1.html#class-overview",
@@ -131,5 +131,26 @@
     "title": "Class 1",
     "section": "Class overview",
     "text": "Class overview\n\nYour teachers\nOpening quiz\nCourse overview\nBioinformatics\nSetting up your computers"
+  },
+  {
+    "objectID": "classes/class1.html#section-3",
+    "href": "classes/class1.html#section-3",
+    "title": "Class 1",
+    "section": "",
+    "text": "NOTE: RStudio is an Integrated Development Environment (IDE) within which it should be easier to organize your R workflow. Learning all the specifics of R and RStudio is beyond the scope of this course and it is a student’s responsibility to learn the basics of these tools. That being said, you can always write me with your questions if something does not work on your computer and I will help troubleshooting potential issues."
+  },
+  {
+    "objectID": "classes/class1.html#section-4",
+    "href": "classes/class1.html#section-4",
+    "title": "Class 1",
+    "section": "",
+    "text": "Once installed, open RStudio. If everything worked appropriately when you first open RStudio, you should see 4 different panes organized in the following way:\n\ntop left: the editor where you edit scripts, documents and can run code directly in the console;\nbottom left: the R console, where the code is run. You can type code directly into the console OR you can send it to the console by running it from the editor;\ntop right: your environment/history panes. This is where you can see variables you’ve created and a full history of functions / commands you have run;\nbottom right: by default contains several panes including: files/plots/packages/help/viewer. The files pane allows you to explore files on your computer like you would in windows explorer or finder on a mac. The plots tab is where you will see plots that you create."
+  },
+  {
+    "objectID": "classes/class1.html#section-5",
+    "href": "classes/class1.html#section-5",
+    "title": "Class 1",
+    "section": "",
+    "text": "Screen shot of what you should see at the end of the installation of all the software. Note that colors and panes arrangement is likely going to be different on your computer. You can change many of the aspects parameters in RStudio and you can arrange colors and panes in the way that works best for you.\n\n\n\n\n\nhttps://giulianocolosimo.github.io/abem_22-23/"
   }
 ]
