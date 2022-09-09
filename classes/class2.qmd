@@ -1,5 +1,5 @@
 ---
-title: "Class 2
+title: "Class 2"
 subtitle: "Study Design & Lab Work - ABEM 22-23"
 author: "Dr. Giuliano Colosimo & Giulia Maiello"
 footer:  "[https://giulianocolosimo.github.io/abem_22-23/](https://giulianocolosimo.github.io/abem_22-23/)"
@@ -24,48 +24,48 @@ library("formattable")
 library("lubridate")
 ```
 
-#Study design
+# Study design
 
-##What's a study design?
+## What's a study design?
 
 :::{.callout-note icon=false}
-##set of methods and procedures used to collect and analyze data on variables specified in a particular research problem
+Set of methods and procedures used to collect and analyze data on variables specified in a particular research problem
 :::
 
 :::{.callout-important}
-##It is always important to undersand WHAT we want to do before start doing it!
+It is always important to undersand WHAT we want to do before start doing it!
 :::
 
 
-#Metabarcoding
+# Metabarcoding
 
-##What is metabarcoding?
+## What is metabarcoding?
 
 :::{.callout-note icon=false}
-## From [Wikipedia](https://en.wikipedia.org/wiki/Metabarcoding)
+From [Wikipedia](https://en.wikipedia.org/wiki/Metabarcoding)
 Metabarcoding is the barcoding of DNA/RNA (or eDNA/eRNA) in a manner that allows for the simultaneous identification of many taxa within the same sample.
 :::
 
-:::{.callout-note icon=false}
-## (../images/class2/metabarcoding.png){ fig-align="center"}
-:::
 
-#Barcoding vs metabarcoding
+![Metabarcoding](../images/class2/metabarcoding.png){ fig-align="center"}
+
+
+# Barcoding vs metabarcoding
 
 :::{.callout-note icon=false}
-## From [Wikipedia](https://en.wikipedia.org/wiki/Metabarcoding)
+From [Wikipedia](https://en.wikipedia.org/wiki/Metabarcoding)
 The main difference between barcoding and metabarcoding is that metabarcoding does not focus on one specific organism, but instead aims to determine species composition within a sample.
 :::
 
 :::{.callout-note icon=false}
-## (../images/class2/DNAbarcoding.png){ fig-align="center"}
+(../images/class2/DNAbarcoding.png){ fig-align="center"}
 :::
 
 :::{.callout-note icon=false}
-## (../images/class2/DNAmetabarcoding.png){ fig-align="center"}
+(../images/class2/DNAmetabarcoding.png){ fig-align="center"}
 :::
 
-#Metabarcoding workflow
+# Metabarcoding workflow
 
 1. Sampling design, sampling & sample preservation
 2. Sample pre-processing
@@ -76,7 +76,7 @@ The main difference between barcoding and metabarcoding is that metabarcoding do
 7. Ecological data treatment
 
 
-#Sampling
+# Sampling
 Different possible sources of DNA
 
 - water
@@ -85,67 +85,69 @@ Different possible sources of DNA
 - gut content
 
 :::{.callout-note icon=false}
-# (../images/class2/metaapplications.png){ fig-align="center"}
+(../images/class2/metaapplications.png){ fig-align="center"}
 :::
 
-#Lab work
+# Lab work
 
-##main steps:
+## main steps:
 
 :::{.callout-note icon=false}
-## (../images/class2/labwork_flow.png){ fig-align="center"}
+(../images/class2/labwork_flow.png){ fig-align="center"}
 :::
 
 
-#DNA extraction
+# DNA extraction
 
 :::{.callout-note icon=false}
-## From [Gupta N. DNA Extraction and Polymerase Chain Reaction. J Cytol. 2019 Apr-Jun;36(2):116-117. doi: 10.4103/JOC.JOC_110_18. PMID: 30992648; PMCID: PMC6425773.]
+From [Gupta N. DNA Extraction and Polymerase Chain Reaction. J Cytol. 2019 Apr-Jun;36(2):116-117. doi: 10.4103/JOC.JOC_110_18. PMID: 30992648; PMCID: PMC6425773.]
 DNA extraction is a method to purify DNA by using physical and/or chemical methods from a sample separating DNA from cell membranes, proteins, and other cellular components. 
 
 Friedrich Miescher in 1869 did DNA isolation for the first time.
 :::
 
-#PCR amplification
+# PCR amplification
 
 :::{.callout-note icon=false}
-## From [Gupta N. DNA Extraction and Polymerase Chain Reaction. J Cytol. 2019 Apr-Jun;36(2):116-117. doi: 10.4103/JOC.JOC_110_18. PMID: 30992648; PMCID: PMC6425773.]
+From [Gupta N. DNA Extraction and Polymerase Chain Reaction. J Cytol. 2019 Apr-Jun;36(2):116-117. doi: 10.4103/JOC.JOC_110_18. PMID: 30992648; PMCID: PMC6425773.]
 Polymerase chain reaction (PCR) is a robust technique to selectively amplify a specific segment of DNA in vitro.
 PCR is performed on thermocycler and it involves three main steps: 
 (1) denaturation of dsDNA template at 92–95°C 
 (2) annealing of primers at 50–70°C
 (3) extension of dsDNA molecules at approx. 72°C
 These steps are repeated for 30–40 cycles.
+:::
 
-##Target sequence
+
+## Target sequence
 the sequence within the DNA template, which will be amplified by PCR
 
-##PCR primers 
+## PCR primers 
 single-stranded DNA (usually 18–25 nucleotides long), which match the sequences at the ends of or within the target DNA, and these are required to start DNA synthesis in PCR.
 
-#Multiplexing
+# Multiplexing
 the term for mixing multiple samples into one reaction
 :::{.callout-note icon=false}
-## (../images/class2/multiplexing.png){ fig-align="center"}
+(../images/class2/multiplexing.png){ fig-align="center"}
 :::
 
 
-#Library preparation
+# Library preparation
 
 :::{.callout-note icon=false}
-## (../images/class2/library_preparation.png){ fig-align="center"}
+(../images/class2/library_preparation.png){ fig-align="center"}
 :::
 
-#Next generation sequencing
+# Next generation sequencing
 
-##What is next generation sequencing?
+What is next generation sequencing?
 
 :::{.callout-note icon=false}
-## From [Illumina] (https://www.illumina.com/science/technology/next-generation-sequencing.html)
+From [Illumina] (https://www.illumina.com/science/technology/next-generation-sequencing.html)
 Next-generation sequencing (NGS) is a massively parallel sequencing technology that offers ultra-high throughput, scalability, and speed. The technology is used to determine the order of nucleotides in entire genomes or targeted regions of DNA or RNA
 :::
 
-#(../images/class2/illumina_sequencing.png){ fig-align="center"}
+(../images/class2/illumina_sequencing.png){ fig-align="center"}
 
 
 

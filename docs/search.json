@@ -152,5 +152,40 @@
     "title": "Class 1",
     "section": "",
     "text": "Screen shot of what you should see at the end of the installation of all the software. Note that colors and panes arrangement is likely going to be different on your computer. You can change many of the aspects parameters in RStudio and you can arrange colors and panes in the way that works best for you.\n\n\n\n\n\nhttps://giulianocolosimo.github.io/abem_22-23/"
+  },
+  {
+    "objectID": "classes/class2.html#whats-a-study-design",
+    "href": "classes/class2.html#whats-a-study-design",
+    "title": "Class 2",
+    "section": "What’s a study design?",
+    "text": "What’s a study design?\n\n\n\nNote\n\n\nSet of methods and procedures used to collect and analyze data on variables specified in a particular research problem\n\n\n\n\n\n\n\n\n\nImportant\n\n\nIt is always important to undersand WHAT we want to do before start doing it!"
+  },
+  {
+    "objectID": "classes/class2.html#what-is-metabarcoding",
+    "href": "classes/class2.html#what-is-metabarcoding",
+    "title": "Class 2",
+    "section": "What is metabarcoding?",
+    "text": "What is metabarcoding?\n\n\n\nNote\n\n\nFrom Wikipedia Metabarcoding is the barcoding of DNA/RNA (or eDNA/eRNA) in a manner that allows for the simultaneous identification of many taxa within the same sample.\n\n\n\n\nMetabarcoding"
+  },
+  {
+    "objectID": "classes/class2.html#main-steps",
+    "href": "classes/class2.html#main-steps",
+    "title": "Class 2",
+    "section": "main steps:",
+    "text": "main steps:\n\n\n\nNote\n\n\n(../images/class2/labwork_flow.png){ fig-align=“center”}"
+  },
+  {
+    "objectID": "classes/class2.html#target-sequence",
+    "href": "classes/class2.html#target-sequence",
+    "title": "Class 2",
+    "section": "Target sequence",
+    "text": "Target sequence\nthe sequence within the DNA template, which will be amplified by PCR"
+  },
+  {
+    "objectID": "classes/class2.html#pcr-primers",
+    "href": "classes/class2.html#pcr-primers",
+    "title": "Class 2",
+    "section": "PCR primers",
+    "text": "PCR primers\nsingle-stranded DNA (usually 18–25 nucleotides long), which match the sequences at the ends of or within the target DNA, and these are required to start DNA synthesis in PCR."
   }
 ]
