@@ -32,10 +32,10 @@ installer_with_progress <- function(pkgs) {
   return(fail)
 }
 
-download.file("https://github.com/GiulianoColosimo/abem_22-23/blob/main/test.rds?raw=true",
-              destfile =  "test2.rds",
+download.file("https://github.com/GiulianoColosimo/abem_22-23/blob/main/packages_to_install_ABEM22-23.rds?raw=true",
+              destfile =  "packages_to_install_ABEM22-23.rds",
               method = "auto")
 
-pkgs <- readRDS("test2.rds")
+pkgs <- readRDS("packages_to_install_ABEM22-23.rds")
 
 installer_with_progress(pkgs)
