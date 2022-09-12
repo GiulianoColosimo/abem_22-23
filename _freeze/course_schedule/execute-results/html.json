@@ -1,7 +1,7 @@
 {
-  "hash": "6fe7d621d36cc35d858c29f32dc8b273",
+  "hash": "dd7065ed69543f2cc4eca0be278a1bf4",
   "result": {
-    "markdown": "---\ntitle: \"Schedule\"\nauthor: Giuliano Colosimo and Giulia Maiello\ndate: \"2022-09-02\"\ntbl-colwidths: [5,10,15]\n---\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](course_schedule_files/figure-html/calendar1-1.png){width=672}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](course_schedule_files/figure-html/calendar_2-1.png){width=672}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](course_schedule_files/figure-html/calendar_3-1.png){width=672}\n:::\n:::\n",
+    "markdown": "---\ntitle: \"Schedule\"\nauthor: Giuliano Colosimo and Giulia Maiello\ndate: \"2022-09-12\"\ntbl-colwidths: [5,10,15]\n---\n\n\n\n\n::: callout-important\n## Read carefully!\n\nIt is a student's responsibility to periodically check this website to make sure he/she has the most updated information about the course schedule.\n:::\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](course_schedule_files/figure-html/calendar1-1.png){width=672}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](course_schedule_files/figure-html/calendar_2-1.png){width=672}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n![](course_schedule_files/figure-html/calendar_3-1.png){width=672}\n:::\n:::\n",
     "supporting": [
       "course_schedule_files"
     ],
