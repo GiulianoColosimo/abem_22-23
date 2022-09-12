@@ -33,6 +33,4 @@ installer_with_progress <- function(pkgs) {
   return(fail)
 }
 
-pkgs <- readRDS(url(""))
-
 installer_with_progress(pkgs)
