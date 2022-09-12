@@ -46,7 +46,7 @@
     "href": "classes/class1.html#section",
     "title": "Class 1",
     "section": "",
-    "text": "Giulia Maiello\n\n\n\n\nPhD Student\ngiulia.maiello@uniroma2.it"
+    "text": "Drop of sequencing cost for Genomes and Nucleotides. Data from https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data"
   },
   {
     "objectID": "classes/class1.html#what-is-bioinformatics",
@@ -67,7 +67,7 @@
     "href": "classes/class1.html#section-1",
     "title": "Class 1",
     "section": "",
-    "text": "Drop of sequencing cost for Genomes and Nucleotides. Data from https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data"
+    "text": "To visualize and analyse data and to produce reports on all the activities of this course we will be using R and RStudio. These are free cross-platform software.\n\nVisit the R (https://cran.r-project.org) page and download the R version compatible to your OS. Install the software following the instructions.\nVisit the RStudio (https://www.rstudio.com/products/rstudio/download/) page and download the RStudio Desktop version compatible with your OS. Install the software following the instructions."
   },
   {
     "objectID": "index.html",
@@ -123,35 +123,35 @@
     "href": "classes/class1.html#section-2",
     "title": "Class 1",
     "section": "",
-    "text": "To visualize and analyse data and to produce reports on all the activities of this course we will be using R and RStudio. These are free cross-platform software.\n\nVisit the R (https://cran.r-project.org) page and download the R version compatible to your OS. Install the software following the instructions.\nVisit the RStudio (https://www.rstudio.com/products/rstudio/download/) page and download the RStudio Desktop version compatible with your OS. Install the software following the instructions."
+    "text": "NOTE: RStudio is an Integrated Development Environment (IDE) within which it should be easier to organize your R workflow. Learning all the specifics of R and RStudio is beyond the scope of this course and it is a student’s responsibility to learn the basics of these tools. That being said, you can always write me with your questions if something does not work on your computer and I will help troubleshooting potential issues."
   },
   {
     "objectID": "classes/class1.html#class-overview",
     "href": "classes/class1.html#class-overview",
     "title": "Class 1",
     "section": "Class overview",
-    "text": "Class overview\n\nYour teachers\nOpening quiz\nCourse overview\nBioinformatics\nSetting up your computers"
+    "text": "Class overview\n\nYour teachers\nCourse overview\nOpening quiz\nBioinformatics\nSetting up your computers"
   },
   {
     "objectID": "classes/class1.html#section-3",
     "href": "classes/class1.html#section-3",
     "title": "Class 1",
     "section": "",
-    "text": "NOTE: RStudio is an Integrated Development Environment (IDE) within which it should be easier to organize your R workflow. Learning all the specifics of R and RStudio is beyond the scope of this course and it is a student’s responsibility to learn the basics of these tools. That being said, you can always write me with your questions if something does not work on your computer and I will help troubleshooting potential issues."
+    "text": "Once installed, open RStudio. If everything worked appropriately when you first open RStudio, you should see 4 different panes organized in the following way:\n\ntop left: the editor where you edit scripts, documents and can run code directly in the console;\nbottom left: the R console, where the code is run. You can type code directly into the console OR you can send it to the console by running it from the editor;\ntop right: your environment/history panes. This is where you can see variables you’ve created and a full history of functions / commands you have run;\nbottom right: by default contains several panes including: files/plots/packages/help/viewer. The files pane allows you to explore files on your computer like you would in windows explorer or finder on a mac. The plots tab is where you will see plots that you create."
   },
   {
     "objectID": "classes/class1.html#section-4",
     "href": "classes/class1.html#section-4",
     "title": "Class 1",
     "section": "",
-    "text": "Once installed, open RStudio. If everything worked appropriately when you first open RStudio, you should see 4 different panes organized in the following way:\n\ntop left: the editor where you edit scripts, documents and can run code directly in the console;\nbottom left: the R console, where the code is run. You can type code directly into the console OR you can send it to the console by running it from the editor;\ntop right: your environment/history panes. This is where you can see variables you’ve created and a full history of functions / commands you have run;\nbottom right: by default contains several panes including: files/plots/packages/help/viewer. The files pane allows you to explore files on your computer like you would in windows explorer or finder on a mac. The plots tab is where you will see plots that you create."
+    "text": "R-Studio screenshot. You can change many of the aspects parameters (colors, font, panes etc.etc…)."
   },
   {
     "objectID": "classes/class1.html#section-5",
     "href": "classes/class1.html#section-5",
     "title": "Class 1",
     "section": "",
-    "text": "Screen shot of what you should see at the end of the installation of all the software. Note that colors and panes arrangement is likely going to be different on your computer. You can change many of the aspects parameters in RStudio and you can arrange colors and panes in the way that works best for you.\n\n\n\n\n\nhttps://giulianocolosimo.github.io/abem_22-23/"
+    "text": "R-Studio screenshot. You can change many of the aspects parameters (colors, font, panes etc.etc…)."
   },
   {
     "objectID": "classes/class2.html#whats-a-study-design",
@@ -187,5 +187,33 @@
     "title": "Class 2",
     "section": "PCR primers",
     "text": "PCR primers\nsingle-stranded DNA (usually 18–25 nucleotides long), which match the sequences at the ends of or within the target DNA, and these are required to start DNA synthesis in PCR."
+  },
+  {
+    "objectID": "classes/class1.html#opening-quiz",
+    "href": "classes/class1.html#opening-quiz",
+    "title": "Class 1",
+    "section": "Opening quiz",
+    "text": "Opening quiz\nNavigate to the following page:\nhttps://forms.gle/gGz2s246xyrwcPGG7\n\n\n\n\n\n\nNote\n\n\nWorry not, the quiz result will not count towards your final grade!"
+  },
+  {
+    "objectID": "classes/class1.html#packages",
+    "href": "classes/class1.html#packages",
+    "title": "Class 1",
+    "section": "Packages",
+    "text": "Packages\nThere are thousands of available libraries (aka, packages) that can be used to perform very specific analyses and produce publication-grade graphical output.\n\n\n\nhttps://giulianocolosimo.github.io/abem_22-23/"
+  },
+  {
+    "objectID": "classes/class1.html#your-teachers-1",
+    "href": "classes/class1.html#your-teachers-1",
+    "title": "Class 1",
+    "section": "Your teachers (1)",
+    "text": "Your teachers (1)\n\n\n\n\n\nDr. Giuliano Colosimo\n\n\n\n\nResearch Associate working @ University of Rome “Tor Vergata”\nI was a PostDoc for 5 years with the San Diego Zoo Wildlife Association\nI got a PhD in Conservation Genetics @ Mississippi State University\ngiuliano.colosimo@uniroma2.it"
+  },
+  {
+    "objectID": "classes/class1.html#your-teachers-2",
+    "href": "classes/class1.html#your-teachers-2",
+    "title": "Class 1",
+    "section": "Your teachers (2)",
+    "text": "Your teachers (2)\n\n\n\n\n\nGiulia Maiello\n\n\n\n\nPhD Student\nMy research focuses on marine ecology\ngiulia.maiello@uniroma2.it"
   }
 ]

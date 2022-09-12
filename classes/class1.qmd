@@ -29,12 +29,12 @@ library("lubridate")
 ## Class overview
 
 -   Your teachers
--   Opening quiz
 -   Course overview
+-   Opening quiz
 -   Bioinformatics
 -   Setting up your computers
 
-## Your teachers
+## Your teachers (1)
 
 ::: columns
 ::: {.column width="50%"}
@@ -49,7 +49,7 @@ library("lubridate")
 :::
 :::
 
-## 
+## Your teachers (2) 
 
 ::: columns
 ::: {.column width="50%"}
@@ -58,11 +58,19 @@ library("lubridate")
 
 ::: {.column width="50%"}
 -   PhD Student
+-   My research focuses on marine ecology
 -   giulia.maiello\@uniroma2.it
 :::
 :::
 
-# Opening quiz
+## Opening quiz
+Navigate to the following page:
+
+[https://forms.gle/gGz2s246xyrwcPGG7](https://forms.gle/gGz2s246xyrwcPGG7)
+
+::: {.callout-note}
+Worry not, the quiz result will not count towards your final grade!
+:::
 
 # Bioinformatics
 
@@ -128,20 +136,20 @@ To visualize and analyse data and to produce reports on all the activities of th
 
 -   Visit the **RStudio** (https://www.rstudio.com/products/rstudio/download/) page and download the **RStudio** Desktop version compatible with your OS. Install the software following the instructions.
 
-##
+## 
 
-**NOTE**: **RStudio** is an Integrated Development Environment (IDE) within which it should be easier to organize your **R** workflow. <span class="underline">Learning all the specifics of **R** and **RStudio** is beyond the scope of this course and it is a student's responsibility to learn the basics of these tools. That being said, you can always write me with your questions if something does not work on your computer and I will help troubleshooting potential issues. </span>
+**NOTE**: **RStudio** is an Integrated Development Environment (IDE) within which it should be easier to organize your **R** workflow. [Learning all the specifics of **R** and **RStudio** is beyond the scope of this course and it is a student's responsibility to learn the basics of these tools. That being said, you can always write me with your questions if something does not work on your computer and I will help troubleshooting potential issues.]{.underline}
 
-##
+## 
 
 Once installed, open **RStudio**. If everything worked appropriately when you first open **RStudio**, you should see 4 different panes organized in the following way:
 
-- *top left*: the editor where you edit scripts, documents and can run code directly in the console;
-- *bottom left*: the **R** console, where the code is run. You can type code directly into the console OR you can send it to the console by running it from the editor;
-- *top right*: your environment/history panes. This is where you can see variables you’ve created and a full history of functions / commands you have run;
-- *bottom right*: by default contains several panes including: files/plots/packages/help/viewer. The files pane allows you to explore files on your computer like you would in windows explorer or finder on a mac. The plots tab is where you will see plots that you create.
+-   *top left*: the editor where you edit scripts, documents and can run code directly in the console;
+-   *bottom left*: the **R** console, where the code is run. You can type code directly into the console OR you can send it to the console by running it from the editor;
+-   *top right*: your environment/history panes. This is where you can see variables you've created and a full history of functions / commands you have run;
+-   *bottom right*: by default contains several panes including: files/plots/packages/help/viewer. The files pane allows you to explore files on your computer like you would in windows explorer or finder on a mac. The plots tab is where you will see plots that you create.
 
-##
+## 
 
 ![R-Studio screenshot. You can change many of the aspects parameters (colors, font, panes etc.etc...).](../images/class1/rstudio.png){fig-alt="R-Studio screenshot" fig-align="center"}
 
