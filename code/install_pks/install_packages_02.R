@@ -2,7 +2,6 @@ pkg_type <- switch(Sys.info()["sysname"],
                    "Linux" = "source", 
                    "both")
 
-
 installer_with_progress <- function(pkgs) {
   
   if(length(pkgs) == 0) { invisible(return(NULL)) }
@@ -38,4 +37,5 @@ download.file("https://github.com/GiulianoColosimo/abem_22-23/blob/main/test.rds
               method = "auto")
 
 pkgs <- readRDS("test2.rds")
+
 installer_with_progress(pkgs)
