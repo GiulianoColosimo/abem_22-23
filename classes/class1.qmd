@@ -10,23 +10,39 @@ format:
     multiplex: true
     transition: fade
     slide-number: true
-    preview-links: auto
+    preview-links: true
     chalkboard: 
       boardmarker-width: 5
 editor: visual
 from: markdown+emoji
 execute:
   freeze: auto
+editor_options: 
+  chunk_output_type: console
+bibliography: /Users/giulianocolosimo/Dropbox/manuscripts/literature/bibtex/comprehensive_database.bib
+csl: /Users/giulianocolosimo/Dropbox/manuscripts/literature/bibtex/apa_5th_edition.csl
+citation_package: biblatex
+citecolor: "red"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-library(countdown)
+library("countdown")
 library("plotrix")
 library("latticeExtra")
 library("formattable")
 library("lubridate")
 library("calendR")
+library("formatR")
+
+str_break = function(x, width = 65L) {
+  n = nchar(x)
+  if (n <= width) return(x)
+  n1 = seq(1L, n, by = width)
+  n2 = seq(width, n, by = width)
+  if (n %% width != 0) n2 = c(n2, n)
+  substring(x, n1, n2)
+}
 ```
 
 
@@ -49,11 +65,14 @@ library("calendR")
 :::
 
 ::: {.column width="50%"}
+::: {style="font-size: 0.75em;"}
 -   Background in Molecular Ecology
--   🎓 in Conservation Genetics \@ MSU
--   PostDoc for 5 years \@ SDZWA
--   Research Associate working \@ Tor Vergata
--   giuliano.colosimo\@uniroma2.it
+-   MS in Ecology and Evolution \@ University of Rome Tor Vergata
+-   🎓 in Conservation Genetics \@ Mississippi State University
+-   PostDoc for 5 years \@ San Diego Zoo Wildlife Alliance
+-   Research Associate working \@ University of Rome Tor Vergata
+-   ✉️ giuliano.colosimo\@uniroma2.it
+:::
 :::
 :::
 
@@ -65,11 +84,13 @@ library("calendR")
 :::
 
 ::: {.column width="50%"}
+::: {style="font-size: 0.75em;"}
 -   Background in Molecular Ecology
--   MS \@ La Sapienza
--   🎓 candidate \@ Tor Vergata
+-   MS \@ University of Rome La Sapienza
+-   🎓 candidate \@ University of Rome Tor Vergata
 -   Collaboration with Leeds University
--   giulia.maiello\@uniroma2.it
+-   ✉️ giulia.maiello\@uniroma2.it
+:::
 :::
 :::
 
@@ -226,12 +247,11 @@ Bioinformaticians deal with a variety of different type of data! **We are not bi
 
 > -   Back in the days, biologists could analyze their data on personal computers. [Sanger Sequecing](https://en.wikipedia.org/wiki/Sanger_sequencing) produced anywhere between 50 and 1000 nucleotides at a time to be analysed on a regular computer.
 > -   Since 1994 scientist have begun developing new technologies to parallelize DNA sequencing and produce high throughput data.
-> -   As these technologies improve, biologists need to harness the tools to design meaningful experiments to produce data and analyse them.
+> -   As these technologies improve, biologists need to harness the tools to design meaningful experiments, produce the data, and analyse them.
 
 ## 
 
-```{r seq_cost,echo=FALSE, message=FALSE, warning=FALSE, fig.cap="Drop of sequencing cost for Genomes and Nucleotides. Data from [https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data](https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data)"}
-# data downloaded from https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data
+```{r seq_cost, echo=FALSE, message=FALSE, warning=FALSE, fig.cap="Drop of sequencing cost for Genomes and Nucleotides. Data from [https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data](https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data)"}
 
 seq_cost <- read.csv("~/Documents/websites/abem_22-23/data/Sequencing_Cost_Data_Table_Aug2021.csv",
                      header = T)
@@ -261,6 +281,56 @@ axis(side = 4, at = c(-.5, 2.25, 5), labels = c("$ 0.008", "$ 2.5K", "$ 5K"), la
 legend("top", col = c("blue", "red"), legend = c("Cost per Genome", "Cost per Mb"),
        lty = 1, lwd = c(10, 5), bty = "n")
 ```
+
+## How big is big?
+
+. . .
+
+```{r bp_50}
+#| output-location: fragment
+bp_50 <- paste(sample(c("a", "c", "t", "g"), 50, replace = T),
+               collapse = "")
+cat(bp_50)
+```
+
+. . .
+
+```{r bp_100}
+#| output-location: fragment
+bp_100 <- paste(sample(c("a", "c", "t", "g"), 100, replace = T),
+                collapse = "")
+cat(str_break(bp_100), sep = '\n')
+```
+
+. . .
+
+```{r bp_500}
+#| output-location: fragment
+bp_500 <- paste(sample(c("a", "c", "t", "g"), 500, replace = T),
+                collapse = "")
+cat(str_break(bp_500), sep = '\n')
+```
+
+## Even bigger...
+
+```{r bp_10000}
+#| output-location: fragment
+bp_10000 <- paste(sample(c("a", "c", "t", "g"), 10000, replace = T),
+                collapse = "")
+cat(str_break(bp_10000), sep = '\n')
+```
+
+. . .
+
+OK, but how big?
+
+## 
+
+A single nucleotide takes approximately one byte (i.e., 8-bit) of memory (this is may vary based on the type of encoding used by the system, but it is a good approximation).
+
+![Binary code principle for nucleotides as implemented in the *ape* package [@Paradis2012]](../images/class1/bit_level_scheme.png)
+
+## 
 
 # 5. Setting up your computer
 
@@ -294,3 +364,5 @@ Once installed, open **RStudio**. If everything worked appropriately when you fi
 There are thousands of available libraries (aka, *packages*) that can be used to perform very specific analyses and produce publication-grade graphical output.
 
 # 6. Brief intro to R and R-Studio
+
+# References
