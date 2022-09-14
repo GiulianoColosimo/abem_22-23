@@ -49,7 +49,7 @@ library("lubridate")
 :::
 :::
 
-## Your teachers (2) 
+## Your teachers (2)
 
 ::: columns
 ::: {.column width="50%"}
@@ -64,11 +64,12 @@ library("lubridate")
 :::
 
 ## Opening quiz
+
 Navigate to the following page:
 
-[https://forms.gle/gGz2s246xyrwcPGG7](https://forms.gle/gGz2s246xyrwcPGG7)
+<https://forms.gle/gGz2s246xyrwcPGG7>
 
-::: {.callout-note}
+::: callout-note
 Worry not, the quiz result will not count towards your final grade!
 :::
 
