@@ -26,6 +26,7 @@ library("plotrix")
 library("latticeExtra")
 library("formattable")
 library("lubridate")
+library("calendR")
 ```
 
 
@@ -75,32 +76,134 @@ library("lubridate")
 # 2. Course overview
 
 ## 
-
 -  Discretionary course for master level students  
+
+:::{.incremental}
 -  It is worth **3 CFU** for a total of 24 hours of class
 -  Attendance is mandatory
 -  Class will be in Italian unless foreign students are attending
 -  No prior knowledge of Bioinformatics is required
+:::
 
-<p></p>
+. . .
 
 | Day       | Time                          | Location   |
 |-----------|-------------------------------|------------|
 | Mon & Thu | 11:00 - 13:00 & 16:00 - 18:00 | Aula pesca |
 
+## 
+
+::: {style="margin-top: 250px; font-size: 1em; color: red;"}
+It is a student's responsibility to periodically check the course website to make sure he/she has the most updated information about the course schedule!!
+:::
+
 ##
 
+```{r calendar1, echo=FALSE, message=FALSE, warning=FALSE}
+# Vector of dates
+dates <- seq(as.Date("2022-10-01"), 
+  as.Date("2022-10-31"), by = "1 day")
 
+# Vector of NA and weekends
+# (with the week starting on Monday)
+events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
 
+events[c(17, 20, 24, 27)] <- "Classes"
+
+calendR(year = 2022, 
+        month = 10, 
+        start = "M",
+        title = "Class calendar",
+        subtitle = "October 2022",
+        special.days = events,
+        special.col = c("#00AAAE", "gray"),
+        low.col = "white",
+        legend.pos = "bottom", # Legend position
+        legend.title = "",
+        text = c("11:00-13:00\nMeet & Greet\nPC set up",
+                 "16:00-18:00\nStudy design \nand Lab work", 
+                 "11:00-13:00\nSeq. technologies",
+                 "16:00-18:00\nNGS and case\n studies"),             
+        text.pos = c(17, 20, 24, 27),        
+        text.size = 2.5,              
+        text.col = "black")
+```
+
+## 
+
+```{r calendar_2, echo=FALSE, message=FALSE, warning=FALSE}
+# Vector of dates
+dates <- seq(as.Date("2022-11-01"), as.Date("2022-11-30"), by = "1 day")
+
+# Vector of NA and weekends
+# (with the week starting on Monday)
+events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
+
+events[c(3, 7, 10, 14, 17, 21, 24, 28)] <- "Classes"
+
+calendR(year = 2022, 
+        month = 11, 
+        start = "M",
+        title = "",
+        subtitle = "November 2022",
+        special.days = events,
+        special.col = c("#00AAAE", "gray"),
+        low.col = "white",
+        legend.pos = "bottom", # Legend position
+        legend.title = "",
+        text = c("16:00-18:00\nPipeline 1",
+                 "11:00-13:00\nPipeline 2",
+                 "16:00-18:00\nPipeline 3",
+                 "11:00-13:00\nPipeline 4",
+                 "16:00-18:00\nAlternative\n pipelines",
+                 "11:00-13:00\nEcological\n implications",
+                 "16:00-18:00\nR-markdown",
+                 "11:00-13:00\nRecap and\n Proj. assignment"),             
+        text.pos = c(3, 7, 10, 14, 17, 21, 24, 28),        
+        text.size = 2.5,              
+        text.col = "black")
+```
+
+##
+
+```{r calendar_3, echo=FALSE, message=FALSE, warning=FALSE}
+# Vector of dates
+dates <- seq(as.Date("2022-12-01"), as.Date("2022-12-31"), by = "1 day")
+
+# Vector of NA and weekends
+# (with the week starting on Monday)
+events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
+
+events[23] <- "Project report due"
+
+calendR(year = 2022, 
+        month = 12, 
+        start = "M",
+        title = "",
+        subtitle = "December 2022",
+        special.days = events,
+        special.col = c("Red", "gray"),
+        low.col = "white",
+        legend.pos = "bottom", # Legend position
+        legend.title = "",
+        text = c("10:00-12:00\nReport due"),             
+        text.pos = 23,        
+        text.size = 2.5,              
+        text.col = "black")
+```
 
 # 3. Opening quiz
 
+## 
+
+::: {style="margin-top: 150px;"}
 Navigate to the following page:
 
 <https://forms.gle/gGz2s246xyrwcPGG7>
 
 ::: callout-note
 Worry not, the quiz result will not count towards your final grade!
+:::
 :::
 
 # 4. Bioinformatics
@@ -113,8 +216,10 @@ Worry not, the quiz result will not count towards your final grade!
 Bioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data, in particular when the data sets are large and complex. \[...\] bioinformatics combines biology, chemistry, physics, computer science, information engineering, mathematics and statistics \[...\] using computational and statistical techniques.
 :::
 
+. . .
+
 ::: {.callout-important icon="false"}
-Bioinformaticians deal with a variety of different type of data! **We are not bioinformaticians!!** We are evolutionary biologists!! We will focus on nucleotide sequence data.
+Bioinformaticians deal with a variety of different type of data! **We are not bioinformaticians!!** We are evolutionary biologists!! We will focus on nucleotide sequence data WITHOUT loosing focus of the research question.
 :::
 
 ## Why Bioinformatics

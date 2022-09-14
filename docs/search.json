@@ -123,7 +123,7 @@
     "href": "classes/class1.html#what-is-bioinformatics",
     "title": "Class 1",
     "section": "What is Bioinformatics?",
-    "text": "What is Bioinformatics?\n\n\n\nFrom Wikipedia\n\n\nBioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data, in particular when the data sets are large and complex. […] bioinformatics combines biology, chemistry, physics, computer science, information engineering, mathematics and statistics […] using computational and statistical techniques.\n\n\n\n\n\n\nImportant\n\n\nBioinformaticians deal with a variety of different type of data! We are not bioinformaticians!! We are evolutionary biologists!! We will focus on nucleotide sequence data."
+    "text": "What is Bioinformatics?\n\n\n\nFrom Wikipedia\n\n\nBioinformatics is an interdisciplinary field that develops methods and software tools for understanding biological data, in particular when the data sets are large and complex. […] bioinformatics combines biology, chemistry, physics, computer science, information engineering, mathematics and statistics […] using computational and statistical techniques.\n\n\n\n\n\n\n\nImportant\n\n\nBioinformaticians deal with a variety of different type of data! We are not bioinformaticians!! We are evolutionary biologists!! We will focus on nucleotide sequence data WITHOUT loosing focus of the research question."
   },
   {
     "objectID": "classes/class1.html#why-bioinformatics",
@@ -137,35 +137,35 @@
     "href": "classes/class1.html#section",
     "title": "Class 1",
     "section": "",
-    "text": "Discretionary course for master level students\n\nIt is worth 3 CFU for a total of 24 hours of class\nAttendance is mandatory\nClass will be in Italian unless foreign students are attending\nNo prior knowledge of Bioinformatics is required\n\n\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nMon & Thu\n11:00 - 13:00 & 16:00 - 18:00\nAula pesca"
+    "text": "Discretionary course for master level students\n\n\n\nIt is worth 3 CFU for a total of 24 hours of class\nAttendance is mandatory\nClass will be in Italian unless foreign students are attending\nNo prior knowledge of Bioinformatics is required\n\n\n\n\n\n\nDay\nTime\nLocation\n\n\n\n\nMon & Thu\n11:00 - 13:00 & 16:00 - 18:00\nAula pesca"
   },
   {
     "objectID": "classes/class1.html#section-1",
     "href": "classes/class1.html#section-1",
     "title": "Class 1",
     "section": "",
-    "text": "Drop of sequencing cost for Genomes and Nucleotides. Data from https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data"
+    "text": "It is a student’s responsibility to periodically check the course website to make sure he/she has the most updated information about the course schedule!!"
   },
   {
     "objectID": "classes/class1.html#section-2",
     "href": "classes/class1.html#section-2",
     "title": "Class 1",
     "section": "",
-    "text": "To visualize and analyse data and to produce reports on all the activities of this course we will be using R and RStudio. These are free cross-platform software.\n\nVisit the R (https://cran.r-project.org) page and download the R version compatible to your OS. Install the software following the instructions.\nVisit the RStudio (https://www.rstudio.com/products/rstudio/download/) page and download the RStudio Desktop version compatible with your OS. Install the software following the instructions."
+    "text": "Drop of sequencing cost for Genomes and Nucleotides. Data from https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data"
   },
   {
     "objectID": "classes/class1.html#section-3",
     "href": "classes/class1.html#section-3",
     "title": "Class 1",
     "section": "",
-    "text": "NOTE: RStudio is an Integrated Development Environment (IDE) within which it should be easier to organize your R workflow. Learning all the specifics of R and RStudio is beyond the scope of this course and it is a student’s responsibility to learn the basics of these tools. That being said, you can always write me with your questions if something does not work on your computer and I will help troubleshooting potential issues."
+    "text": "To visualize and analyse data and to produce reports on all the activities of this course we will be using R and RStudio. These are free cross-platform software.\n\nVisit the R (https://cran.r-project.org) page and download the R version compatible to your OS. Install the software following the instructions.\nVisit the RStudio (https://www.rstudio.com/products/rstudio/download/) page and download the RStudio Desktop version compatible with your OS. Install the software following the instructions."
   },
   {
     "objectID": "classes/class1.html#section-4",
     "href": "classes/class1.html#section-4",
     "title": "Class 1",
     "section": "",
-    "text": "Once installed, open RStudio. If everything worked appropriately when you first open RStudio, you should see 4 different panes organized in the following way:\n\ntop left: the editor where you edit scripts, documents and can run code directly in the console;\nbottom left: the R console, where the code is run. You can type code directly into the console OR you can send it to the console by running it from the editor;\ntop right: your environment/history panes. This is where you can see variables you’ve created and a full history of functions / commands you have run;\nbottom right: by default contains several panes including: files/plots/packages/help/viewer. The files pane allows you to explore files on your computer like you would in windows explorer or finder on a mac. The plots tab is where you will see plots that you create."
+    "text": "Drop of sequencing cost for Genomes and Nucleotides. Data from https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data"
   },
   {
     "objectID": "classes/class1.html#packages",
@@ -212,6 +212,41 @@
   {
     "objectID": "classes/class1.html#section-5",
     "href": "classes/class1.html#section-5",
+    "title": "Class 1",
+    "section": "",
+    "text": "Navigate to the following page:\nhttps://forms.gle/gGz2s246xyrwcPGG7\n\n\n\n\n\n\nNote\n\n\nWorry not, the quiz result will not count towards your final grade!"
+  },
+  {
+    "objectID": "classes/class1.html#section-6",
+    "href": "classes/class1.html#section-6",
+    "title": "Class 1",
+    "section": "",
+    "text": "Drop of sequencing cost for Genomes and Nucleotides. Data from https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data"
+  },
+  {
+    "objectID": "classes/class1.html#section-7",
+    "href": "classes/class1.html#section-7",
+    "title": "Class 1",
+    "section": "",
+    "text": "To visualize and analyse data and to produce reports on all the activities of this course we will be using R and RStudio. These are free cross-platform software.\n\nVisit the R (https://cran.r-project.org) page and download the R version compatible to your OS. Install the software following the instructions.\nVisit the RStudio (https://www.rstudio.com/products/rstudio/download/) page and download the RStudio Desktop version compatible with your OS. Install the software following the instructions."
+  },
+  {
+    "objectID": "classes/class1.html#section-8",
+    "href": "classes/class1.html#section-8",
+    "title": "Class 1",
+    "section": "",
+    "text": "NOTE: RStudio is an Integrated Development Environment (IDE) within which it should be easier to organize your R workflow. Learning all the specifics of R and RStudio is beyond the scope of this course and it is a student’s responsibility to learn the basics of these tools. That being said, you can always write me with your questions if something does not work on your computer and I will help troubleshooting potential issues."
+  },
+  {
+    "objectID": "classes/class1.html#section-9",
+    "href": "classes/class1.html#section-9",
+    "title": "Class 1",
+    "section": "",
+    "text": "Once installed, open RStudio. If everything worked appropriately when you first open RStudio, you should see 4 different panes organized in the following way:\n\ntop left: the editor where you edit scripts, documents and can run code directly in the console;\nbottom left: the R console, where the code is run. You can type code directly into the console OR you can send it to the console by running it from the editor;\ntop right: your environment/history panes. This is where you can see variables you’ve created and a full history of functions / commands you have run;\nbottom right: by default contains several panes including: files/plots/packages/help/viewer. The files pane allows you to explore files on your computer like you would in windows explorer or finder on a mac. The plots tab is where you will see plots that you create."
+  },
+  {
+    "objectID": "classes/class1.html#section-10",
+    "href": "classes/class1.html#section-10",
     "title": "Class 1",
     "section": "",
     "text": "R-Studio screenshot. You can change many of the aspects parameters (colors, font, panes etc.etc…)."
