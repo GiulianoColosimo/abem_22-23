@@ -10,7 +10,11 @@ format:
     multiplex: true
     transition: fade
     slide-number: true
+    preview-links: auto
+    chalkboard: 
+      boardmarker-width: 5
 editor: visual
+from: markdown+emoji
 execute:
   freeze: auto
 ---
@@ -24,17 +28,19 @@ library("formattable")
 library("lubridate")
 ```
 
-# Welcome
 
 ## Class overview
 
--   Your teachers
--   Course overview
--   Opening quiz
--   Bioinformatics
--   Setting up your computers
+1.   Your teachers
+2.   Course overview
+3.   Opening quiz
+4.   Bioinformatics
+5.   Setting up your computers
+6.   Brief intro to R and R-Studio
 
-## Your teachers (1)
+# 1. Your teachers
+
+## Giuliano Colosimo
 
 ::: columns
 ::: {.column width="50%"}
@@ -42,14 +48,15 @@ library("lubridate")
 :::
 
 ::: {.column width="50%"}
--   Research Associate working \@ University of Rome "Tor Vergata"
--   I was a PostDoc for 5 years with the San Diego Zoo Wildlife Association
--   I got a PhD in Conservation Genetics \@ Mississippi State University
+-   Background in Molecular Ecology
+-   🎓 in Conservation Genetics \@ MSU
+-   PostDoc for 5 years \@ SDZWA
+-   Research Associate working \@ Tor Vergata
 -   giuliano.colosimo\@uniroma2.it
 :::
 :::
 
-## Your teachers (2)
+## Giulia Maiello
 
 ::: columns
 ::: {.column width="50%"}
@@ -57,13 +64,36 @@ library("lubridate")
 :::
 
 ::: {.column width="50%"}
--   PhD Student
--   My research focuses on marine ecology
+-   Background in Molecular Ecology
+-   MS \@ La Sapienza
+-   🎓 candidate \@ Tor Vergata
+-   Collaboration with Leeds University
 -   giulia.maiello\@uniroma2.it
 :::
 :::
 
-## Opening quiz
+# 2. Course overview
+
+## 
+
+-  Discretionary course for master level students  
+-  It is worth **3 CFU** for a total of 24 hours of class
+-  Attendance is mandatory
+-  Class will be in Italian unless foreign students are attending
+-  No prior knowledge of Bioinformatics is required
+
+<p></p>
+
+| Day       | Time                          | Location   |
+|-----------|-------------------------------|------------|
+| Mon & Thu | 11:00 - 13:00 & 16:00 - 18:00 | Aula pesca |
+
+##
+
+
+
+
+# 3. Opening quiz
 
 Navigate to the following page:
 
@@ -73,7 +103,7 @@ Navigate to the following page:
 Worry not, the quiz result will not count towards your final grade!
 :::
 
-# Bioinformatics
+# 4. Bioinformatics
 
 ## What is Bioinformatics?
 
@@ -127,7 +157,7 @@ legend("top", col = c("blue", "red"), legend = c("Cost per Genome", "Cost per Mb
        lty = 1, lwd = c(10, 5), bty = "n")
 ```
 
-# Setting up your computer
+# 5. Setting up your computer
 
 ## 
 
@@ -157,3 +187,5 @@ Once installed, open **RStudio**. If everything worked appropriately when you fi
 ## Packages
 
 There are thousands of available libraries (aka, *packages*) that can be used to perform very specific analyses and produce publication-grade graphical output.
+
+# 6. Brief intro to R and R-Studio

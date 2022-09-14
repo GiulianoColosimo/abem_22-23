@@ -33,6 +33,8 @@
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style type="text/css">
 
@@ -332,23 +334,24 @@
   <p class="author">Dr.&nbsp;Giuliano Colosimo &amp; Giulia Maiello</p>
 </section>
 
-<section>
-<section id="welcome" class="title-slide slide level1 center">
-<h1>Welcome</h1>
-
-</section>
 <section id="class-overview" class="slide level2">
 <h2>Class overview</h2>
-<ul>
+<ol type="1">
 <li>Your teachers</li>
 <li>Course overview</li>
 <li>Opening quiz</li>
 <li>Bioinformatics</li>
 <li>Setting up your computers</li>
-</ul>
+<li>Brief intro to R and R-Studio</li>
+</ol>
 </section>
-<section id="your-teachers-1" class="slide level2">
-<h2>Your teachers (1)</h2>
+<section>
+<section id="your-teachers" class="title-slide slide level1 center">
+<h1>1. Your teachers</h1>
+
+</section>
+<section id="giuliano-colosimo" class="slide level2">
+<h2>Giuliano Colosimo</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
@@ -359,16 +362,17 @@
 </div>
 </div><div class="column" style="width:50%;">
 <ul>
-<li>Research Associate working @ University of Rome “Tor Vergata”</li>
-<li>I was a PostDoc for 5 years with the San Diego Zoo Wildlife Association</li>
-<li>I got a PhD in Conservation Genetics @ Mississippi State University</li>
+<li>Background in Molecular Ecology</li>
+<li>🎓 in Conservation Genetics @ MSU</li>
+<li>PostDoc for 5 years @ SDZWA</li>
+<li>Research Associate working @ Tor Vergata</li>
 <li>giuliano.colosimo@uniroma2.it</li>
 </ul>
 </div>
 </div>
 </section>
-<section id="your-teachers-2" class="slide level2">
-<h2>Your teachers (2)</h2>
+<section id="giulia-maiello" class="slide level2">
+<h2>Giulia Maiello</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
@@ -379,15 +383,51 @@
 </div>
 </div><div class="column" style="width:50%;">
 <ul>
-<li>PhD Student</li>
-<li>My research focuses on marine ecology</li>
+<li>Background in Molecular Ecology</li>
+<li>MS @ La Sapienza</li>
+<li>🎓 candidate @ Tor Vergata</li>
+<li>Collaboration with Leeds University</li>
 <li>giulia.maiello@uniroma2.it</li>
 </ul>
 </div>
 </div>
+</section></section>
+<section>
+<section id="course-overview" class="title-slide slide level1 center">
+<h1>2. Course overview</h1>
+
 </section>
-<section id="opening-quiz" class="slide level2">
-<h2>Opening quiz</h2>
+<section id="section" class="slide level2">
+<h2></h2>
+<ul>
+<li>Discretionary course for master level students<br>
+</li>
+<li>It is worth <strong>3 CFU</strong> for a total of 24 hours of class</li>
+<li>Attendance is mandatory</li>
+<li>Class will be in Italian unless foreign students are attending</li>
+<li>No prior knowledge of Bioinformatics is required</li>
+</ul>
+<p>
+</p>
+<table>
+<thead>
+<tr class="header">
+<th>Day</th>
+<th>Time</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Mon &amp; Thu</td>
+<td>11:00 - 13:00 &amp; 16:00 - 18:00</td>
+<td>Aula pesca</td>
+</tr>
+</tbody>
+</table>
+</section></section>
+<section id="opening-quiz" class="title-slide slide level1 center">
+<h1>3. Opening quiz</h1>
 <p>Navigate to the following page:</p>
 <p><a href="https://forms.gle/gGz2s246xyrwcPGG7" class="uri">https://forms.gle/gGz2s246xyrwcPGG7</a></p>
 <div class="callout callout-note callout-captioned callout-style-default">
@@ -403,10 +443,11 @@
 </div>
 </div>
 </div>
-</section></section>
+</section>
+
 <section>
 <section id="bioinformatics" class="title-slide slide level1 center">
-<h1>Bioinformatics</h1>
+<h1>4. Bioinformatics</h1>
 
 </section>
 <section id="what-is-bioinformatics" class="slide level2">
@@ -440,16 +481,16 @@
 <li class="fragment">As these technologies improve, biologists need to harness the tools to design meaningful experiments to produce data and analyse them.</li>
 </ul>
 </section>
-<section id="section" class="slide level2">
+<section id="section-1" class="slide level2">
 <h2></h2>
 
 <img data-src="class1_files/figure-revealjs/seq_cost-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">Drop of sequencing cost for Genomes and Nucleotides. Data from <a href="https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data">https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data</a></p></section></section>
 <section>
 <section id="setting-up-your-computer" class="title-slide slide level1 center">
-<h1>Setting up your computer</h1>
+<h1>5. Setting up your computer</h1>
 
 </section>
-<section id="section-1" class="slide level2">
+<section id="section-2" class="slide level2">
 <h2></h2>
 <p>To visualize and analyse data and to produce reports on all the activities of this course we will be using <strong>R</strong> and <strong>RStudio</strong>. These are free cross-platform software.</p>
 <ul>
@@ -457,11 +498,11 @@
 <li><p>Visit the <strong>RStudio</strong> (https://www.rstudio.com/products/rstudio/download/) page and download the <strong>RStudio</strong> Desktop version compatible with your OS. Install the software following the instructions.</p></li>
 </ul>
 </section>
-<section id="section-2" class="slide level2">
+<section id="section-3" class="slide level2">
 <h2></h2>
 <p><strong>NOTE</strong>: <strong>RStudio</strong> is an Integrated Development Environment (IDE) within which it should be easier to organize your <strong>R</strong> workflow. <u>Learning all the specifics of <strong>R</strong> and <strong>RStudio</strong> is beyond the scope of this course and it is a student’s responsibility to learn the basics of these tools. That being said, you can always write me with your questions if something does not work on your computer and I will help troubleshooting potential issues.</u></p>
 </section>
-<section id="section-3" class="slide level2">
+<section id="section-4" class="slide level2">
 <h2></h2>
 <p>Once installed, open <strong>RStudio</strong>. If everything worked appropriately when you first open <strong>RStudio</strong>, you should see 4 different panes organized in the following way:</p>
 <ul>
@@ -471,19 +512,22 @@
 <li><em>bottom right</em>: by default contains several panes including: files/plots/packages/help/viewer. The files pane allows you to explore files on your computer like you would in windows explorer or finder on a mac. The plots tab is where you will see plots that you create.</li>
 </ul>
 </section>
-<section id="section-4" class="slide level2">
+<section id="section-5" class="slide level2">
 <h2></h2>
 
 <img data-src="../images/class1/rstudio.png" alt="R-Studio screenshot" class="r-stretch quarto-figure-center"><p class="caption">R-Studio screenshot. You can change many of the aspects parameters (colors, font, panes etc.etc…).</p></section>
 <section id="packages" class="slide level2">
 <h2>Packages</h2>
 <p>There are thousands of available libraries (aka, <em>packages</em>) that can be used to perform very specific analyses and produce publication-grade graphical output.</p>
+</section></section>
+<section id="brief-intro-to-r-and-r-studio" class="title-slide slide level1 center">
+<h1>6. Brief intro to R and R-Studio</h1>
 
 
 <img src="../images/background.jpg" class="slide-logo r-stretch"><div class="footer footer-default">
 <p><a href="https://giulianocolosimo.github.io/abem_22-23/">https://giulianocolosimo.github.io/abem_22-23/</a></p>
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
@@ -494,6 +538,7 @@
   <script src="../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="../site_libs/revealjs/plugin/multiplex/socket.io.js"></script>
   <script src="../site_libs/revealjs/plugin/multiplex/multiplex.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
@@ -511,13 +556,14 @@
       // https://revealjs.com/config/
       Reveal.initialize({
 'controlsAuto': true,
-'previewLinksAuto': false,
+'previewLinksAuto': true,
 'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true,"boardmarkerWidth":5},
 'multiplex': {"secret":null,"id":"366dfa3c29e020d1","url":"https://reveal-multiplex.glitch.me/"},
 'smaller': false,
  
@@ -689,7 +735,7 @@
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           
