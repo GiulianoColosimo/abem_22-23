@@ -326,11 +326,20 @@ OK, but how big?
 
 ## 
 
-A single nucleotide takes approximately one byte (i.e., 8-bit) of memory (this is may vary based on the type of encoding used by the system, but it is a good approximation).
+A single nucleotide takes approximately 1 byte (i.e., 8-bit) of memory (this is may vary based on the type of encoding used by the system, but it is a good approximation).
 
-![Binary code principle for nucleotides as implemented in the *ape* package [@Paradis2012]](../images/class1/bit_level_scheme.png)
+![Binary code scheme for nucleotides as implemented in the *ape* package [@Paradis2012]](../images/class1/bit_coding.png)
 
 ## 
+
+![Bit-level coding scheme as implemented in the *ape* package [@Paradis2012]](../images/class1/bit_level_coding_scheme.png)
+
+## A little math...
+
+```{r}
+nchar(bp_10000)/1e6
+```
+
 
 # 5. Setting up your computer
 
