@@ -87,7 +87,7 @@ dates <- seq(as.Date("2022-12-01"), as.Date("2022-12-31"), by = "1 day")
 # (with the week starting on Monday)
 events <- ifelse(format(dates, "%w") %in% c(6, 0), "Weekend", NA)
 
-events[23] <- "Project due"
+events[23] <- "Project report due"
 
 calendR(year = 2022, 
         month = 12, 
