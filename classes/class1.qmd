@@ -336,9 +336,6 @@ A single nucleotide takes approximately 1 byte (i.e., 8-bit) of memory (this is 
 
 ## A little math...
 
-```{r}
-nchar(bp_10000)/1e6
-```
 
 
 # 5. Setting up your computer
