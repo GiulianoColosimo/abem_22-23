@@ -45,17 +45,16 @@ str_break = function(x, width = 65L) {
 }
 ```
 
-
 ## Class overview
 
-1.   Your teachers
-2.   Course overview
-3.   Opening quiz
-4.   Bioinformatics
-5.   Setting up your computers
-6.   Brief intro to R and R-Studio
+1.  Your teachers
+2.  Course overview
+3.  Opening quiz
+4.  Bioinformatics
+5.  Setting up your computers
+6.  Brief intro to R and R-Studio
 
-# 1. Your teachers
+# Your teachers
 
 ## Giuliano Colosimo
 
@@ -68,10 +67,10 @@ str_break = function(x, width = 65L) {
 ::: {style="font-size: 0.75em;"}
 -   Background in Molecular Ecology
 -   MS in Ecology and Evolution \@ University of Rome Tor Vergata
--   🎓 in Conservation Genetics \@ Mississippi State University
+-   :mortar_board: in Conservation Genetics \@ Mississippi State University
 -   PostDoc for 5 years \@ San Diego Zoo Wildlife Alliance
 -   Research Associate working \@ University of Rome Tor Vergata
--   ✉️ giuliano.colosimo\@uniroma2.it
+-   :envelope: giuliano.colosimo\@uniroma2.it
 :::
 :::
 :::
@@ -87,23 +86,23 @@ str_break = function(x, width = 65L) {
 ::: {style="font-size: 0.75em;"}
 -   Background in Molecular Ecology
 -   MS \@ University of Rome La Sapienza
--   🎓 candidate \@ University of Rome Tor Vergata
+-   :mortar_board: candidate \@ University of Rome Tor Vergata
 -   Collaboration with Leeds University
--   ✉️ giulia.maiello\@uniroma2.it
+-   :envelope: giulia.maiello\@uniroma2.it
 :::
 :::
 :::
 
-# 2. Course overview
+# Course overview
 
-## 
--  Discretionary course for master level students  
+------------------------------------------------------------------------
 
-:::{.incremental}
--  It is worth **3 CFU** for a total of 24 hours of class
--  Attendance is mandatory
--  Class will be in Italian unless foreign students are attending
--  No prior knowledge of Bioinformatics is required
+::: incremental
+-   Discretionary course for master level students
+-   It is worth **3 CFU** for a total of 24 hours of class
+-   Attendance is mandatory
+-   Class will be in Italian unless foreign students are attending
+-   No prior knowledge of Bioinformatics is required
 :::
 
 . . .
@@ -112,13 +111,13 @@ str_break = function(x, width = 65L) {
 |-----------|-------------------------------|------------|
 | Mon & Thu | 11:00 - 13:00 & 16:00 - 18:00 | Aula pesca |
 
-## 
+------------------------------------------------------------------------
 
 ::: {style="margin-top: 250px; font-size: 1em; color: red;"}
 It is a student's responsibility to periodically check the course website to make sure he/she has the most updated information about the course schedule!!
 :::
 
-##
+------------------------------------------------------------------------
 
 ```{r calendar1, echo=FALSE, message=FALSE, warning=FALSE}
 # Vector of dates
@@ -185,7 +184,7 @@ calendR(year = 2022,
         text.col = "black")
 ```
 
-##
+## 
 
 ```{r calendar_3, echo=FALSE, message=FALSE, warning=FALSE}
 # Vector of dates
@@ -213,9 +212,9 @@ calendR(year = 2022,
         text.col = "black")
 ```
 
-# 3. Opening quiz
+# Opening quiz
 
-## 
+------------------------------------------------------------------------
 
 ::: {style="margin-top: 150px;"}
 Navigate to the following page:
@@ -227,7 +226,7 @@ Worry not, the quiz result will not count towards your final grade!
 :::
 :::
 
-# 4. Bioinformatics
+# Bioinformatics
 
 ## What is Bioinformatics?
 
@@ -249,7 +248,7 @@ Bioinformaticians deal with a variety of different type of data! **We are not bi
 > -   Since 1994 scientist have begun developing new technologies to parallelize DNA sequencing and produce high throughput data.
 > -   As these technologies improve, biologists need to harness the tools to design meaningful experiments, produce the data, and analyse them.
 
-## 
+------------------------------------------------------------------------
 
 ```{r seq_cost, echo=FALSE, message=FALSE, warning=FALSE, fig.cap="Drop of sequencing cost for Genomes and Nucleotides. Data from [https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data](https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data)"}
 
@@ -324,19 +323,17 @@ cat(str_break(bp_10000), sep = '\n')
 
 OK, but how big?
 
-## 
+------------------------------------------------------------------------
 
 A single nucleotide takes approximately 1 byte (i.e., 8-bit) of memory (this is may vary based on the type of encoding used by the system, but it is a good approximation).
 
 ![Binary code scheme for nucleotides as implemented in the *ape* package [@Paradis2012]](../images/class1/bit_coding.png)
 
-## 
+------------------------------------------------------------------------
 
 ![Bit-level coding scheme as implemented in the *ape* package [@Paradis2012]](../images/class1/bit_level_coding_scheme.png)
 
 ## A little math...
-
-
 
 # 5. Setting up your computer
 
