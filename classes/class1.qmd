@@ -408,16 +408,16 @@ time.taken
 
 To visualize and analyse data and to produce reports we will be using **R** and **RStudio**. These are free cross-platform software.
 
--   Visit the [R](https://cran.r-project.org) page and download the version compatible to your OS. Install the software following the instructions.
+-   Visit the [R](https://cran.r-project.org) page and download the version compatible to your OS. Install the software following the instructions. Ideally you should install R version 4.2.0.
 
--   Visit the [RStudio](https://www.rstudio.com/products/rstudio/download/) page and download the desktop version compatible with your OS. Install the software following the instructions.
+-   Visit the [RStudio](https://www.rstudio.com/products/rstudio/download/) page and download the desktop version compatible with your OS. Install the software following the instructions. Ideally you should install RStudio  2022.07.1+554 
 
 ---
 
 ::: {style="margin-top: 150px;"}
 
 ::: {.callout-warning}
-Learning all the specifics of **R** and **RStudio** is beyond the scope of this course. We will be doing a brief introduction to these tools, but it is a student's responsibility to learn how to use them in an efficient way. 
+Learning all the specifics of **R** and **RStudio** is beyond the scope of this course. We will be doing a brief introduction to these tools, but it is a student's responsibility to learn how to use them in an efficient way. [Un Viaggio nell'Ambiente R](https://tommaso-russo.github.io/libroR/index.html) is a very useful resource to know how to use this tool.
 :::
 
 ::: {.callout-tip}
@@ -443,13 +443,67 @@ Once installed, open **RStudio**. If everything worked appropriately when you fi
 
 # Brief intro to R and RStudio
 
+## A *number cruncher* on steroids
+
+```{r}
+# basic arithmetic
+3 + 5
+```
+
+. . .
+
+```{r}
+# assigning values to object
+a <- 5
+b <- 3
+(c <- a + b)
+
+```
+
+
+## Basic installation
+
+```{r sI}
+sessionInfo()
+```
+
+
 ## Packages
 
 There are thousands of available libraries (aka, *packages*) that can be used to perform very specific analyses and produce publication-grade graphical output.
 
-```{r sI}
+```{r packs}
 sI <- sessionInfo()
 sI$basePkgs
+```
+
+---
+
+```{r}
+rownames(installed.packages())
+```
+
+. . .
+
+<br/>
+
+```{r, include=TRUE, eval=FALSE}
+install.packages("ggplot2", 
+                 repos = "https://cloud.r-project.org")
+```
+
+## Packages for this course
+
+```{r, include=TRUE, eval=FALSE}
+source("https://raw.githubusercontent.com/GiulianoColosimo/abem_22-23/main/code/install_pks/install_packages_01.R")
+```
+<br/>
+
+. . .
+
+
+```{r, include=TRUE, eval=FALSE}
+source("https://raw.githubusercontent.com/GiulianoColosimo/abem_22-23/main/code/install_pks/install_packages_02.R")
 ```
 
 
