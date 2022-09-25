@@ -14,3 +14,17 @@ editor: visual
 execute:
   freeze: auto
 ---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+## Class overview
+
+1. Review of the previous class
+2. Sequencing technologies
+
+# Sequencing technologies
+
