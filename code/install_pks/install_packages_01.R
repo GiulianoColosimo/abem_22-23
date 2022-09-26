@@ -2,6 +2,11 @@ pkg_type <- switch(Sys.info()["sysname"],
                    "Linux" = "source", 
                    "both")
 
+if(!requireNamespace("progress", quietly = TRUE)) {
+  install.packages(c('progress'), quiet = TRUE, update = FALSE, ask = FALSE, type = pkg_type)
+}
+
+
 ## BiocManager comes first!
 ## these packages are needed prior to the installation
 if(!requireNamespace("BiocManager", quietly = TRUE)) {
