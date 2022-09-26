@@ -509,13 +509,8 @@ library(ggplot2)
 ## Packages for this course
 
 ::: callout-warning
-If you have a Windows computer you need to install an additional package named *Rtools*
+If you have a Windows computer you need to install an additional package named *Rtools*. Navigate to [https://cran.r-project.org/bin/windows/Rtools/rtools42/rtools.html](https://cran.r-project.org/bin/windows/Rtools/rtools42/rtools.html). Download and install **Rtools42 installer**. 
 :::
-
-```{r, include=TRUE, eval=FALSE}
-# Only for Windows users!
-install.packages("Rtools")
-```
 
 <br/>
 
