@@ -508,7 +508,21 @@ library(ggplot2)
 
 ## Packages for this course
 
+::: callout-warning
+If you have a Windows computer you need to install an additional package named *Rtools*
+:::
+
 ```{r, include=TRUE, eval=FALSE}
+# Only for Windows users!
+install.packages("Rtools")
+```
+
+<br/>
+
+. . .
+
+```{r, include=TRUE, eval=FALSE}
+# For everyone
 source("https://raw.githubusercontent.com/GiulianoColosimo/abem_22-23/main/code/install_pks/install_packages_01.R")
 ```
 
