@@ -1,6 +1,6 @@
-if(Sys.info()["sysname"] == "Windows"){
-  BiocManager::install(version = "devel")
-  BiocManager::install("Rqc")
-} else {
-  BiocManager::install("Rqc")
-}
+BiocManager::install("Rqc")
+BiocManager::install("DECIPHER")
+install.packages("fpeek")
+install.packages("doMC")
+install.packages("stringdist")
+install.packages("reshape2")

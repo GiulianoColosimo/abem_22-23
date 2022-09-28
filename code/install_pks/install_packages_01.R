@@ -1,12 +1,3 @@
-pkg_type <- switch(Sys.info()["sysname"],
-                   "Linux" = "source", 
-                   "both")
-
-if(!requireNamespace("progress", quietly = TRUE)) {
-  install.packages(c('progress'), quiet = TRUE, update = FALSE, ask = FALSE, type = pkg_type)
-}
-
-
 ## BiocManager comes first!
 ## these packages are needed prior to the installation
 if(!requireNamespace("BiocManager", quietly = TRUE)) {
@@ -24,3 +15,16 @@ if(!requireNamespace("remotes", quietly = TRUE)) {
 if(!requireNamespace("magrittr", quietly = TRUE)) {
   BiocManager::install('magrittr', quiet = TRUE, update = FALSE, ask = FALSE, type = pkg_type)
 }
+
+if(!requireNamespace("Rqc", quietly = TRUE)) {
+  BiocManager::install('Rqc', quiet = TRUE, update = FALSE, ask = FALSE, type = pkg_type)
+}
+
+if(!requireNamespace("DECIPHER", quietly = TRUE)) {
+  BiocManager::install('DECIPHER', quiet = TRUE, update = FALSE, ask = FALSE, type = pkg_type)
+}
+
+if(!requireNamespace("fpeek", quietly = TRUE)) {
+  BiocManager::install('fpeek', quiet = TRUE, update = FALSE, ask = FALSE, type = pkg_type)
+}
+
